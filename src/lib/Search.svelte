@@ -33,9 +33,10 @@
         padding: 5px 7px;
         border-radius: 4px;
         margin-left: 10px;
-        border: none;
+        border: 1px solid #fff2;
+        outline: none;
     }
     input:focus {
-        outline: 1px solid var(--primary-color);
+        border: 1px solid var(--primary-color);
     }
 </style>
