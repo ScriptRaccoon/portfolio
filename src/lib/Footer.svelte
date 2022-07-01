@@ -1,6 +1,6 @@
 <footer>
     <p>
-        Made with ❤ and
+        Made with <i class="fa-regular fa-heart" /> and
         <a href="https://svelte.dev" target="_blank">Svelte</a>
         by Script Raccoon
     </p>
@@ -31,15 +31,16 @@
 <style>
     footer {
         background-color: var(--primary-color);
-        padding: 15px;
+        padding: 20px;
         margin-top: auto;
         text-align: center;
     }
     ul {
-        margin-top: 10px;
+        margin-top: 15px;
         list-style: none;
         display: flex;
         justify-content: center;
         gap: 20px;
+        font-size: 24px;
     }
 </style>
