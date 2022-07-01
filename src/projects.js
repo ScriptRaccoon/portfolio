@@ -12,6 +12,7 @@ module.exports = [
             "Full stack",
         ],
         tutorial: "https://youtu.be/CMIwJLS0dns",
+        image: "svordle.png",
     },
     {
         name: "Actors Info",
@@ -27,6 +28,7 @@ module.exports = [
             "API",
         ],
         tutorial: "https://youtu.be/5xzqEqQR7L4",
+        image: "actors.png",
     },
     {
         name: "Rubik's Cube",
@@ -36,6 +38,7 @@ module.exports = [
         repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
         keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
         tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
+        image: "cube.png",
     },
     {
         name: "Spotify Playlist finder",
@@ -99,6 +102,7 @@ module.exports = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8vGfIvK5-9P5RAavTxzoQWP",
+        image: "pool.png",
     },
 
     {
@@ -133,6 +137,7 @@ module.exports = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8sBtJOzgVKFHpxuMa-moSPX",
+        image: "space.png",
     },
     {
         name: "BookShelf",

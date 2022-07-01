@@ -5,6 +5,13 @@
 <article>
     <h2>{project.name}</h2>
 
+    {#if project.image}
+        <div
+            class="image"
+            style="background-image: url('assets/{project.image}');"
+        />
+    {/if}
+
     <p class="description">{@html project.description}</p>
 
     <p class="links">
@@ -51,10 +58,18 @@
 
 <style>
     article {
-        background-color: var(--card-color);
         padding: 20px;
         border-radius: 14px;
         box-shadow: 0px 0px 20px #0005;
+        position: relative;
+        overflow: hidden;
+    }
+    article::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: var(--card-color);
+        z-index: -2;
     }
     h2 {
         font-weight: 400;
@@ -67,6 +82,10 @@
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.5;
+    }
+    h2,
+    .description {
+        text-shadow: 1px 1px 1px #000;
     }
     .keywords {
         display: flex;
@@ -85,5 +104,17 @@
     .links {
         display: flex;
         gap: 14px;
+    }
+    .image {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.05;
+        z-index: -1;
+        transition: opacity 400ms ease-out;
+    }
+    article:hover .image {
+        opacity: 0;
     }
 </style>
