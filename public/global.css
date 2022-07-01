@@ -1,0 +1,41 @@
+:root {
+    --bg-color: #091017;
+    --card-color: #101c29;
+    --primary-color: orangered;
+    --secondary-color: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #efefef;
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+    text-underline-offset: 2px;
+}
+
+a:focus-visible,
+a:hover {
+    color: var(--secondary-color);
+}
+
+input,
+button {
+    font-family: inherit;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+}
