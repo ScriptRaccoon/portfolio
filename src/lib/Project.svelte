@@ -73,11 +73,12 @@
         flex-wrap: wrap;
         gap: 10px;
         margin-top: 20px;
+        font-family: consolas, mono-space;
     }
     .keyword {
         background-color: var(--primary-color);
         color: white;
-        padding: 2px 9px;
+        padding: 3px 10px;
         border-radius: 10px;
         font-size: 14px;
     }
