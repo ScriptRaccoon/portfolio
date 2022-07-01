@@ -1,14 +1,16 @@
 <header>
-    <h1>Portfolio by Script Raccoon</h1>
+    <h1>Portfolio</h1>
+    <small>by Script Raccoon</small>
 </header>
 
 <style>
     header {
         padding: 40px 0px;
+        text-align: center;
     }
     h1 {
         font-size: 50px;
         font-weight: 400;
-        text-align: center;
+        letter-spacing: 2px;
     }
 </style>
