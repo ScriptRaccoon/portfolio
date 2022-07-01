@@ -2,7 +2,7 @@ module.exports = [
     {
         name: "Svordle",
         description:
-            "This is a version of the <a href='https://www.nytimes.com/games/wordle' target='_blank'>Wordle game</a> made with Svelte. The backend uses Netlify's serverless functions which sends an encrypted version of the correct word to the client, so that cheating is impossible.",
+            "This is a version of the <a href='https://www.nytimes.com/games/wordle' target='_blank'>Wordle game</a>. The frontend uses Svelte. The backend uses Netlify's serverless functions which sends an encrypted version of the correct word to the client, so that cheating is impossible. The app is available in English and German.",
         url: "https://svordle.xyz",
         repo: "https://github.com/ScriptRaccoon/Svordle",
         keywords: [
@@ -16,7 +16,7 @@ module.exports = [
     {
         name: "Actors Info",
         description:
-            "App which lets you look up pictures from all the movies and TV shows starring a given actor/actress. This uses the TMDB API to find the credits and Yahoo's image search on the backend.",
+            "This app lets you look up pictures from all the movies and TV shows starring a given actor/actress. This is useful when you want to remember from where you already know an actor/actress. The backend uses the <a href='https://developers.themoviedb.org' target='_blank'>TMDB API</a> to find the movie credits as well as Yahoo's image search to find suitable pictures.",
         url: "https://actorsinfo.herokuapp.com",
         keywords: [
             "Full stack",
@@ -31,11 +31,19 @@ module.exports = [
     {
         name: "Rubik's Cube",
         description:
-            "This is Rubik's Cube made mainly with 3-dimensional CSS transforms and a bit of JavaScript (Svelte) to execute them. No WebGL or libraries such as Three.js are used.",
+            "This is Rubik's Cube made mainly with 3-dimensional CSS transforms and a bit of JavaScript (Svelte) to execute them. No WebGL or libraries such as Three.js are used. There are options to undo moves, scramble the cube, reset the cube, zoom, or make the cube transparent.",
         url: "https://rubikscubesvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
         keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
         tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
+    },
+    {
+        name: "Spotify Playlist finder",
+        description:
+            "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this feature is not offered by the Spotify App itself.",
+        repo: "https://github.com/ScriptRaccoon/spotify-playlist-finder",
+        url: "https://spotify-playlist-finder.herokuapp.com/",
+        keywords: ["Tool", "Express", "EJS", "Vanilla JavaScript"],
     },
     {
         name: "Comparison of JS frameworks",
@@ -125,6 +133,15 @@ module.exports = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8sBtJOzgVKFHpxuMa-moSPX",
+    },
+    {
+        name: "BookShelf",
+        description:
+            "This app lets us add books to a digital library. It is mainly a demonstration of components and reactivity in Svelte. It also features nice 3-dimensional animations for opening/closing the book covers.",
+        url: "https://bookshelfsvelte.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/BookShelf",
+        tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
+        keywords: ["Svelte", "CSS", "Tool"],
     },
     {
         name: "Calendar App",
