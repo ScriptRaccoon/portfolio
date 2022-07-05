@@ -9,11 +9,14 @@
         Hi, I am Martin! I am a mathematician and a web developer.
     </p>
     <p>
-        All my projects can be found on my
+        Most of my projects can be found on my
         <a href="https://github.com/ScriptRaccoon/" target="_blank"
             >GitHub</a
         >, a selection of which can be found
-        <a href="#portfolio">below</a>. Under the name
+        <a href="#portfolio">below</a>.
+    </p>
+    <p>
+        Under the name
         <i>Script Raccoon</i>
         I create coding tutorials on
         <a
@@ -32,7 +35,7 @@
     </button>
 
     {#if readMore}
-        <div transition:slide={{ duration: 800 }}>
+        <div class="more" transition:slide={{ duration: 800 }}>
             <p>
                 On the frontend, I usually use just <strong
                     >Vanilla JavaScript</strong
@@ -60,7 +63,7 @@
                 application with
                 <strong>SvelteKit</strong>. Usually my sites are
                 hosted on <strong>Heroku</strong>
-                and <strong>Netlify</strong>.
+                or <strong>Netlify</strong>.
             </p>
 
             <p>
@@ -86,21 +89,30 @@
 <style>
     .greet {
         text-align: center;
-        color: skyblue;
+        color: var(--tertiary-color);
     }
     section {
         max-width: 720px;
         margin: 0 auto;
         font-size: 20px;
+        line-height: 1.5;
     }
     p {
         padding-block: 10px;
     }
     strong {
         font-weight: initial;
-        color: skyblue;
+        color: var(--tertiary-color);
     }
     button {
         text-decoration: underline;
+    }
+    button:hover,
+    button:focus-visible {
+        color: var(--secondary-color);
+    }
+    .more {
+        padding-left: 15px;
+        font-size: 18px;
     }
 </style>

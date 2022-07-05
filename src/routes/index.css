@@ -3,6 +3,8 @@
     --card-color: #101c29;
     --primary-color: orangered;
     --secondary-color: yellow;
+    --tertiary-color: skyblue;
+    --font-color: #eee;
 }
 
 * {
@@ -19,7 +21,7 @@ body {
 body {
     background-color: var(--bg-color);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: #efefef;
+    color: var(--font-color);
     font-size: 18px;
     min-height: 100vh;
     display: flex;
