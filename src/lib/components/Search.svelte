@@ -7,15 +7,15 @@
     }, 200);
 </script>
 
-<section>
+<menu>
     <label title="Search" for="searchInput">
         <i aria-label="Search" class="fa-solid fa-magnifying-glass" />
     </label>
     <input id="searchInput" type="text" on:input={debounceSearch} />
-</section>
+</menu>
 
 <style>
-    section {
+    menu {
         margin-bottom: 20px;
         margin-inline: auto;
         padding: 15px;

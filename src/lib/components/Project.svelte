@@ -3,7 +3,7 @@
 </script>
 
 <article>
-    <h2>{project.name}</h2>
+    <h3>{project.name}</h3>
 
     {#if project.image}
         <div
@@ -71,7 +71,7 @@
         background-color: var(--card-color);
         z-index: -2;
     }
-    h2 {
+    h3 {
         font-weight: 400;
         font-size: 30px;
         color: var(--secondary-color);
@@ -83,7 +83,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.5;
     }
-    h2,
+    h3,
     .description {
         text-shadow: 1px 1px 1px #000;
     }

@@ -2,8 +2,8 @@
     import "./index.css";
     import Footer from "$lib/components/Footer.svelte";
     import Header from "$lib/components/Header.svelte";
-    import ProjectList from "$lib/components/ProjectList.svelte";
-    import Search from "$lib/components/Search.svelte";
+    import Portfolio from "../lib/components/Portfolio.svelte";
+    import Welcome from "../lib/components/Welcome.svelte";
 </script>
 
 <svelte:head>
@@ -14,12 +14,14 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
     />
+    <title>Script Raccoon</title>
 </svelte:head>
 
 <Header />
-<Search />
+
 <main>
-    <ProjectList />
+    <Welcome />
+    <Portfolio />
 </main>
 <Footer />
 
