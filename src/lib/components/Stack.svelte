@@ -113,6 +113,8 @@
         {/each}
     </div>
 
+    <p class="love">I love to build stuff with Svelte!</p>
+
     <h3>Backend</h3>
     <div class="logos">
         {#each backendLogos as { image, name, url }}
@@ -141,6 +143,12 @@
 </section>
 
 <style>
+    .love {
+        color: var(--primary-color);
+        text-align: center;
+        padding-bottom: 30px;
+        /* font-size: 14px; */
+    }
     h3 {
         text-align: center;
         font-weight: 400;
