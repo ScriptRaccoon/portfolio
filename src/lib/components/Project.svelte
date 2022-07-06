@@ -6,10 +6,7 @@
     <h3>{project.name}</h3>
 
     {#if project.image}
-        <div
-            class="image"
-            style="background-image: url('assets/{project.image}');"
-        />
+        <img src="assets/{project.image}" alt="project preview" />
     {/if}
 
     <p class="description">{@html project.description}</p>
@@ -78,14 +75,9 @@
     }
     .description {
         margin: 12px 0px;
-        opacity: 0.9;
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.5;
-    }
-    h3,
-    .description {
-        text-shadow: 1px 1px 1px #000;
     }
     .keywords {
         display: flex;
@@ -105,16 +97,9 @@
         display: flex;
         gap: 14px;
     }
-    .image {
-        position: absolute;
-        inset: 0;
-        background-size: cover;
-        background-repeat: no-repeat;
-        opacity: 0.05;
-        z-index: -1;
-        transition: opacity 400ms ease-out;
-    }
-    article:hover .image {
-        opacity: 0;
+    img {
+        width: 100%;
+        margin-top: 25px;
+        border-radius: 10px;
     }
 </style>
