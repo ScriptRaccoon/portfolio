@@ -49,9 +49,9 @@ export const projects = [
         keywords: ["Tool", "Express", "EJS", "Vanilla JavaScript"],
     },
     {
-        name: "Comparison of JS frameworks",
+        name: "Comparison of JavaScript frameworks",
         description:
-            "The same shopping list SPA coded with several JavaScript frameworks in order to compare them with respect to developer experience and bundle size.",
+            "The same shopping list SPA coded with 7 JavaScript frameworks in order to compare them with respect to developer experience and bundle size.",
         url: "https://shopping-list-made-with-vanilla-js.netlify.app",
         repo: "https://github.com/ScriptRaccoon/shopping-list-frameworks",
         keywords: [
@@ -60,6 +60,8 @@ export const projects = [
             "React",
             "SolidJS",
             "Vue",
+            "Lit",
+            "Alpine",
         ],
     },
     {
