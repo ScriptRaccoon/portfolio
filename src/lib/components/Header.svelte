@@ -22,21 +22,21 @@
         background-color: white;
         width: 80px;
         border-radius: 50%;
-        animation: fade 700ms ease-out forwards;
+        animation: fade 900ms ease-out forwards;
         transform: scale(0);
     }
     @keyframes fade {
         0% {
             opacity: 0;
-            transform: scale(0) rotate(20deg);
+            transform: scale(0);
         }
-        80% {
+        60% {
             opacity: 1;
-            transform: scale(1.1) rotate(0deg);
+            transform: scale(1.1);
         }
         100% {
             opacity: 1;
-            transform: scale(1) rotate(0deg);
+            transform: scale(1);
         }
     }
 </style>
