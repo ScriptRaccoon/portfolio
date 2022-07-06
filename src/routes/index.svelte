@@ -28,6 +28,5 @@
 <style>
     main {
         padding-inline: 15px;
-        margin-bottom: 50px;
     }
 </style>
