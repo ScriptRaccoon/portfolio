@@ -17,7 +17,7 @@ export const projects = [
     {
         name: "Rubik's Cube",
         description:
-            "This is a fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to build the cube from its components.",
+            "This is a fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to construct the cube from its components.",
         url: "https://rubikscubesvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
         keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
@@ -43,7 +43,7 @@ export const projects = [
     {
         name: "Spotify Playlist finder",
         description:
-            "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this feature is not offered by Spotify itself. Uses OAuth 2.0 to access your Spotify account.",
+            "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this specific feature is not built into the Spotify app.",
         repo: "https://github.com/ScriptRaccoon/spotify-playlist-finder",
         url: "https://spotify-playlist-finder.herokuapp.com/",
         keywords: [
@@ -85,7 +85,7 @@ export const projects = [
     {
         name: "Whisper Note",
         description:
-            "A tool to share secrets via a one-time-link (very similar to <a href='https://onetimesecret.com/' target='_blank'>onetimesecret</a>). The backend uses Express and EJS templates. The data is encrypted and stored in Firebase.",
+            "A tool to share secrets via a one-time-link, very similar to <a href='https://onetimesecret.com/' target='_blank'>onetimesecret</a>. The backend uses Express and EJS templates. The data is encrypted and stored in Firebase.",
         url: "https://whispernote.herokuapp.com/",
         repo: "https://github.com/ScriptRaccoon/WhisperNote",
         keywords: [
@@ -104,7 +104,7 @@ export const projects = [
     {
         name: "Pool game",
         description:
-            "This is a fun pool game written in Vanilla JavaScript. All drawing operations are done on an HTML canvas. Includes physics, light effects, shadows and sound effects.",
+            "This is a fun pool game written in Vanilla JavaScript. All drawing operations are done with an HTML canvas. Includes physics, light effects, shadows and sound effects.",
         url: "https://pool-game.netlify.app",
         repo: "https://github.com/ScriptRaccoon/pool-game",
         keywords: [
@@ -121,7 +121,7 @@ export const projects = [
     {
         name: "Weather App",
         description:
-            "This is a simple weather app made with SvelteKit. The data comes from <a href='https://openweathermap.org/' target='_blank'>OpenWeather API</a>. Mainly serves as an illustration of SvelteKit endpoints.",
+            "This is a simple weather app made with SvelteKit. The data comes from <a href='https://openweathermap.org/' target='_blank'>OpenWeather API</a>. This project mainly serves as an illustration of SvelteKit endpoints.",
         url: "https://weather-sveltekit.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/sveltekit-weather",
         keywords: ["Full stack", "SvelteKit", "API"],
@@ -141,7 +141,7 @@ export const projects = [
     {
         name: "Space Parallax",
         description:
-            "This is a space shooter game. You can navigate a spaceship through space, which is able to shoot asteroids. The stars in the background show a parallax effect, therefore the name.",
+            "This is a space shooter game. You can navigate a spaceship through space and shoot asteroids with lazers. The stars in the background show a parallax effect, therefore the name.",
         url: "https://spaceship-parallax.netlify.app",
         repo: "https://github.com/ScriptRaccoon/spaceship-parallax",
         keywords: [
@@ -158,7 +158,7 @@ export const projects = [
     {
         name: "BookShelf",
         description:
-            "This app lets us add and edit books in a personal library. It also features 3-dimensional animations for opening/closing the book covers. This project illustrates Svelte components.",
+            "This app lets us create a personal digital library. It features 3-dimensional animations for opening/closing the book covers. This project mainly illustrates Svelte components.",
         url: "https://bookshelfsvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/BookShelf",
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
@@ -168,7 +168,7 @@ export const projects = [
     {
         name: "Calendar App",
         description:
-            "This is a calendar app built with no framework. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
+            "This is a calendar app built with no frameworks. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
         repo: "https://github.com/ScriptRaccoon/calendar",
         url: "https://wherethetimegoes.netlify.app/",
         tutorial:
@@ -240,7 +240,7 @@ export const projects = [
     {
         name: "CSS Sphere",
         description:
-            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. Works best in Chrome.",
+            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. This works by animating the perspective. Works best in Chrome.",
         url: "https://css-sphere.netlify.app",
         repo: "https://github.com/ScriptRaccoon/css-sphere",
         keywords: ["Graphics", "3D", "CSS"],
@@ -264,7 +264,7 @@ export const projects = [
     {
         name: "Mahjong Solitaire",
         description:
-            "This is a Mahjong solitaire game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tile is left.",
+            "This is a Mahjong solitaire game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tiles are left.",
         repo: "https://github.com/ScriptRaccoon/mahjong-solitaire",
         url: "https://mahjong-solitaire.netlify.app/",
         tutorial: "https://youtu.be/oWDB4LaO4MU",
@@ -274,7 +274,7 @@ export const projects = [
     {
         name: "Chess program",
         description:
-            "This is a single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. Possible moves and previous moves are highlighted.",
+            "This is a single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
         repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
         url: "https://chess-singleplayer.netlify.app/",
         keywords: [
