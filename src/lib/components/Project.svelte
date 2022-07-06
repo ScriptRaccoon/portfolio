@@ -7,7 +7,10 @@
         <h3>{project.name}</h3>
 
         {#if project.image}
-            <img src="assets/{project.image}" alt="project preview" />
+            <img
+                src="assets/projects/{project.image}"
+                alt="project preview"
+            />
         {/if}
 
         <p class="description">{@html project.description}</p>
