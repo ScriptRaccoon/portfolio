@@ -4,6 +4,7 @@
     import Header from "$lib/components/Header.svelte";
     import Portfolio from "../lib/components/Portfolio.svelte";
     import Welcome from "../lib/components/Welcome.svelte";
+    import Stack from "../lib/components/Stack.svelte";
 </script>
 
 <svelte:head>
@@ -21,6 +22,7 @@
 
 <main>
     <Welcome />
+    <Stack />
     <Portfolio />
 </main>
 <Footer />
