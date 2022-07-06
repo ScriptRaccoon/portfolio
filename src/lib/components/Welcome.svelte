@@ -1,7 +1,18 @@
+<script>
+    import TypeWriter from "./TypeWriter.svelte";
+</script>
+
 <section>
     <h2>Welcome</h2>
     <p class="greet">
-        Hi, I am Martin! I am a mathematician and a web developer.
+        Hi, I am Martin! I am a <TypeWriter
+            words={[
+                "web developer.",
+                "mathematician.",
+                "content creator.",
+                "drummer :)",
+            ]}
+        />
     </p>
     <p>
         My projects can be found on
@@ -33,7 +44,6 @@
 
 <style>
     .greet {
-        text-align: center;
         color: var(--tertiary-color);
     }
     section {
