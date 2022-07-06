@@ -43,6 +43,6 @@
         line-height: 1.5;
     }
     p {
-        padding-block: 10px;
+        padding-block: 8px;
     }
 </style>
