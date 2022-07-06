@@ -1,60 +1,29 @@
 <script>
     import { projects } from "../projects";
     import Project from "./Project.svelte";
-    import { search } from "../stores.js";
+    import { enableMasonry } from "../masonry.js";
+    import { onMount } from "svelte";
 
-    function projectText(project) {
-        return (
-            project.name +
-            project.description +
-            project.keywords.join(" ")
-        ).toLocaleLowerCase();
-    }
-
-    $: filteredProjects = $search
-        ? projects.filter((project) =>
-              projectText(project).includes(
-                  $search.toLocaleLowerCase()
-              )
-          )
-        : projects;
+    onMount(() => {
+        enableMasonry({
+            gridSelector: ".grid",
+            itemSelector: ".item",
+        });
+    });
 </script>
 
-<section>
-    {#each filteredProjects as project (project.name)}
+<section class="grid">
+    {#each projects as project (project.name)}
         <Project {project} />
-    {:else}
-        <div class="nothing">
-            <p>No search results</p>
-            <br />
-            <img src="./assets/confused.webp" alt="confused actor" />
-        </div>
     {/each}
 </section>
 
 <style>
     section {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
+        grid-gap: 25px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         max-width: 90%;
         margin-inline: auto;
-    }
-    @media (min-width: 720px) {
-        section {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-    @media (min-width: 1024px) {
-        section {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
-    .nothing {
-        text-align: center;
-        grid-column: 1 / -1;
-    }
-    .nothing img {
-        border-radius: 12px;
     }
 </style>

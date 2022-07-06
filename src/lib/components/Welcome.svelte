@@ -96,9 +96,10 @@
     }
     section {
         max-width: 720px;
-        margin: 0 auto;
+        margin-inline: auto;
         font-size: 20px;
         line-height: 1.5;
+        margin-bottom: 50px;
     }
     p {
         padding-block: 10px;

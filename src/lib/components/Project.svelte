@@ -2,72 +2,69 @@
     export let project;
 </script>
 
-<article>
-    <h3>{project.name}</h3>
+<div class="item">
+    <article class="content">
+        <h3>{project.name}</h3>
 
-    {#if project.image}
-        <img src="assets/{project.image}" alt="project preview" />
-    {/if}
-
-    <p class="description">{@html project.description}</p>
-
-    <p class="links">
-        {#if project.url}
-            <a href={project.url} target="_blank" title="Demo">
-                <i
-                    aria-label="Desktop icon"
-                    class="fa-solid fa-display"
-                />
-            </a>
+        {#if project.image}
+            <img src="assets/{project.image}" alt="project preview" />
         {/if}
-        {#if project.repo}
-            <a
-                href={project.repo}
-                target="_blank"
-                title="GitHub Repository"
-            >
-                <i
-                    aria-label="GitHub Icon"
-                    class="fa-brands fa-github"
-                />
-            </a>
-        {/if}
-        {#if project.tutorial}
-            <a
-                href={project.tutorial}
-                target="_blank"
-                title="Tutorial"
-            >
-                <i
-                    aria-label="YouTube Icon"
-                    class="fa-brands fa-youtube"
-                />
-            </a>
-        {/if}
-    </p>
 
-    <p class="keywords">
-        {#each project.keywords.sort() as keyword}
-            <span class="keyword">{keyword}</span>
-        {/each}
-    </p>
-</article>
+        <p class="description">{@html project.description}</p>
+
+        <p class="links">
+            {#if project.url}
+                <a href={project.url} target="_blank" title="Demo">
+                    <i
+                        aria-label="Desktop icon"
+                        class="fa-solid fa-display"
+                    />
+                </a>
+            {/if}
+            {#if project.repo}
+                <a
+                    href={project.repo}
+                    target="_blank"
+                    title="GitHub Repository"
+                >
+                    <i
+                        aria-label="GitHub Icon"
+                        class="fa-brands fa-github"
+                    />
+                </a>
+            {/if}
+            {#if project.tutorial}
+                <a
+                    href={project.tutorial}
+                    target="_blank"
+                    title="Tutorial"
+                >
+                    <i
+                        aria-label="YouTube Icon"
+                        class="fa-brands fa-youtube"
+                    />
+                </a>
+            {/if}
+        </p>
+
+        <p class="keywords">
+            {#each project.keywords.sort() as keyword}
+                <span class="keyword">{keyword}</span>
+            {/each}
+        </p>
+    </article>
+</div>
 
 <style>
+    .item {
+        background-color: var(--card-color);
+        box-shadow: 0px 0px 20px #0005;
+        border-radius: 14px;
+    }
     article {
         padding: 20px;
-        border-radius: 14px;
-        box-shadow: 0px 0px 20px #0005;
-        position: relative;
-        overflow: hidden;
     }
-    article::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-color: var(--card-color);
-        z-index: -2;
-    }
+
     h3 {
         font-weight: 400;
         font-size: 30px;
@@ -101,5 +98,15 @@
         width: 100%;
         margin-top: 25px;
         border-radius: 10px;
+    }
+
+    @media (hover: hover) {
+        img {
+            opacity: 0.7;
+            transition: opacity 120ms linear;
+        }
+        img:hover {
+            opacity: 1;
+        }
     }
 </style>
