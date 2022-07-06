@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    color: var(--tertiary-color);
+    color: inherit;
     text-underline-offset: 2px;
 }
 

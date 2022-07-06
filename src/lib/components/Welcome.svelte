@@ -55,4 +55,11 @@
     p {
         padding-block: 8px;
     }
+    a {
+        color: var(--tertiary-color);
+    }
+    a:focus-visible,
+    a:hover {
+        color: var(--secondary-color);
+    }
 </style>
