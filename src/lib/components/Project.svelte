@@ -86,9 +86,9 @@
     .keyword {
         background-color: var(--primary-color);
         color: white;
-        padding: 3px 10px;
+        padding: 5px 12px;
         border-radius: 10px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .links {
         display: flex;
