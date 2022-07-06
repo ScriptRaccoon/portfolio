@@ -47,6 +47,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/spotify-playlist-finder",
         url: "https://spotify-playlist-finder.herokuapp.com/",
         keywords: ["Tool", "Express", "EJS", "Vanilla JavaScript"],
+        image: "spotify.png",
     },
     {
         name: "Comparison of JavaScript frameworks",
@@ -63,6 +64,7 @@ export const projects = [
             "Lit",
             "Alpine",
         ],
+        image: "shoppinglist.png",
     },
     {
         name: "Svoodle",
@@ -71,6 +73,7 @@ export const projects = [
         url: "https://svoodle.netlify.app",
         repo: "https://github.com/ScriptRaccoon/svoodle",
         keywords: ["Full stack", "SvelteKit", "Svelte", "Tool"],
+        image: "svoodle.png",
     },
     {
         name: "Whisper Note",
@@ -88,6 +91,7 @@ export const projects = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8s2_B2xJaEwMrR5fR73_9U9",
+        image: "whispernote.png",
     },
 
     {
