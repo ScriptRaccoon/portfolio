@@ -26,8 +26,18 @@
     .grid {
         display: grid;
         grid-gap: 25px;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         max-width: 90%;
         margin-inline: auto;
+    }
+    @media (max-width: 1200px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 540px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
