@@ -24,7 +24,7 @@
 
     <p>
         Under the name
-        <i>Script Raccoon</i>
+        <strong>Script Raccoon</strong>
         I create coding tutorials on
         <a
             href="https://www.youtube.com/scriptraccoon"
