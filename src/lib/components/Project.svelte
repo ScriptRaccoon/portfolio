@@ -103,15 +103,6 @@
         width: 100%;
         margin-top: 25px;
         border-radius: 10px;
-    }
-
-    @media (hover: hover) {
-        img {
-            opacity: 0.7;
-            transition: opacity 120ms linear;
-        }
-        img:hover {
-            opacity: 1;
-        }
+        box-shadow: 0px 0px 20px #0003;
     }
 </style>
