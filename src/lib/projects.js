@@ -32,10 +32,10 @@ export const projects = [
         keywords: [
             "Full stack",
             "Vanilla JavaScript",
-            "Node",
+            "Node.js",
             "Express",
-            "websockets",
             "API",
+            "Tool",
         ],
         tutorial: "https://youtu.be/5xzqEqQR7L4",
         image: "actors.jpg",
@@ -49,6 +49,7 @@ export const projects = [
         keywords: [
             "Tool",
             "Express",
+            "Node",
             "EJS",
             "Vanilla JavaScript",
             "OAuth",
@@ -85,12 +86,12 @@ export const projects = [
     {
         name: "Whisper Note",
         description:
-            "A tool to share secrets via a one-time-link, very similar to <a href='https://onetimesecret.com/' target='_blank'>onetimesecret</a>. The backend uses Express and EJS templates. The data is encrypted and stored in Firebase.",
+            "A tool to share secrets via a one-time-link and an optional password, very similar to <a href='https://onetimesecret.com/' target='_blank'>onetimesecret</a>. The data is encrypted and stored in Firebase.",
         url: "https://whispernote.herokuapp.com/",
         repo: "https://github.com/ScriptRaccoon/WhisperNote",
         keywords: [
             "Full stack",
-            "Node",
+            "Node.js",
             "Express",
             "Firebase",
             "EJS",
@@ -162,7 +163,7 @@ export const projects = [
         url: "https://bookshelfsvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/BookShelf",
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
-        keywords: ["Svelte", "CSS", "Tool"],
+        keywords: ["3D", "Svelte", "CSS", "Tool"],
         image: "bookshelf.jpg",
     },
     {
@@ -178,6 +179,7 @@ export const projects = [
             "Tool",
             "Firebase",
             "Vanilla JavaScript",
+            "CSS",
         ],
         image: "calendar.jpg",
     },
@@ -188,7 +190,12 @@ export const projects = [
         tutorial: "https://youtu.be/78mrc9M_ONE",
         repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
         tutorial: "https://youtu.be/78mrc9M_ONE",
-        keywords: ["Google Drive", "Google Apps Script", "Tool"],
+        keywords: [
+            "Full stack",
+            "Google Drive",
+            "Google Apps Script",
+            "Tool",
+        ],
         image: "upload.jpg",
     },
     {
@@ -253,7 +260,7 @@ export const projects = [
         url: "https://lets-draw-online.herokuapp.com/",
         repo: "https://github.com/ScriptRaccoon/lets-draw",
         keywords: [
-            "Node",
+            "Node.js",
             "Express",
             "websockets",
             "Vanilla JavaScript",
@@ -283,6 +290,7 @@ export const projects = [
             "Object-oriented",
             "Graphics",
             "Sass",
+            "CSS",
         ],
         image: "chess.jpg",
     },
