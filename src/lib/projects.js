@@ -2,7 +2,7 @@ export const projects = [
     {
         name: "Svordle",
         description:
-            "This is a version of the <a href='https://www.nytimes.com/games/wordle' target='_blank'>Wordle game</a>. The frontend uses Svelte. The backend uses Netlify's serverless functions which sends an encrypted version of the correct word to the client, so that cheating is impossible. The app is available in English and German.",
+            "This is a version of the <a href='https://www.nytimes.com/games/wordle' target='_blank'>Wordle game</a> built with Svelte on the frontend and Netlify's serverless functions on the backend. Cheating is impossible since the correct word is encrypted.",
         url: "https://svordle.xyz",
         repo: "https://github.com/ScriptRaccoon/Svordle",
         keywords: [
@@ -17,7 +17,7 @@ export const projects = [
     {
         name: "Actors Info",
         description:
-            "This app lets you look up pictures from all the movies and TV shows starring a given actor/actress. This is useful when you want to remember from where you already know an actor/actress. The backend uses the <a href='https://developers.themoviedb.org' target='_blank'>TMDB API</a> to find the movie credits as well as Yahoo's image search to find suitable pictures.",
+            "This app lets you look up pictures from all the movies and TV shows starring a given actor/actress, using the <a href='https://developers.themoviedb.org' target='_blank'>TMDB API</a> as well as Yahoo's image on the backend.",
         url: "https://actorsinfo.herokuapp.com",
         keywords: [
             "Full stack",
@@ -33,7 +33,7 @@ export const projects = [
     {
         name: "Rubik's Cube",
         description:
-            "This is Rubik's Cube made mainly with 3-dimensional CSS transforms and a bit of JavaScript (Svelte) to execute them. No WebGL or libraries such as Three.js are used. There are options to undo moves, scramble the cube, reset the cube, zoom, or make the cube transparent.",
+            "This is a fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to build the cube from its components.",
         url: "https://rubikscubesvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
         keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
@@ -43,16 +43,22 @@ export const projects = [
     {
         name: "Spotify Playlist finder",
         description:
-            "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this feature is not offered by the Spotify App itself.",
+            "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this feature is not offered by Spotify itself. Uses OAuth 2.0 to access your Spotify account.",
         repo: "https://github.com/ScriptRaccoon/spotify-playlist-finder",
         url: "https://spotify-playlist-finder.herokuapp.com/",
-        keywords: ["Tool", "Express", "EJS", "Vanilla JavaScript"],
+        keywords: [
+            "Tool",
+            "Express",
+            "EJS",
+            "Vanilla JavaScript",
+            "OAuth",
+        ],
         image: "spotify.png",
     },
     {
         name: "Comparison of JavaScript frameworks",
         description:
-            "The same shopping list SPA coded with 7 JavaScript frameworks in order to compare them with respect to developer experience and bundle size.",
+            "The very same shopping list SPA made with 7 JavaScript frameworks in order to compare them with respect to developer experience and bundle size.",
         url: "https://shopping-list-made-with-vanilla-js.netlify.app",
         repo: "https://github.com/ScriptRaccoon/shopping-list-frameworks",
         keywords: [
@@ -63,16 +69,17 @@ export const projects = [
             "Vue",
             "Lit",
             "Alpine",
+            "Benchmark",
         ],
         image: "shoppinglist.png",
     },
     {
         name: "Svoodle",
         description:
-            "A <a href='https://doodle.com' target='_blank'>doodle</a> clone made with SvelteKit.",
+            "A <a href='https://doodle.com' target='_blank'>doodle</a>-like app made with SvelteKit and Firebase which lets you quickly create polls which can be shared via links. Polls get deleted after a month.",
         url: "https://svoodle.netlify.app",
         repo: "https://github.com/ScriptRaccoon/svoodle",
-        keywords: ["Full stack", "SvelteKit", "Svelte", "Tool"],
+        keywords: ["Full stack", "SvelteKit", "Firebase", "Tool"],
         image: "svoodle.png",
     },
     {
@@ -97,7 +104,7 @@ export const projects = [
     {
         name: "Pool game",
         description:
-            "This is a pool game written in Vanilla JavaScript. All drawing operations are done on an HTML canvas. No images are used.",
+            "This is a fun pool game written in Vanilla JavaScript. All drawing operations are done on an HTML canvas. Includes physics, light effects, shadows and sound effects.",
         url: "https://pool-game.netlify.app",
         repo: "https://github.com/ScriptRaccoon/pool-game",
         keywords: [
@@ -114,7 +121,7 @@ export const projects = [
     {
         name: "Weather App",
         description:
-            "A simple weather app made with SvelteKit. The data comes from OpenWeather API.",
+            "This is a simple weather app made with SvelteKit. The data comes from <a href='https://openweathermap.org/' target='_blank'>OpenWeather API</a>. Mainly serves as an illustration of SvelteKit endpoints.",
         url: "https://weather-sveltekit.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/sveltekit-weather",
         keywords: ["Full stack", "SvelteKit", "API"],
@@ -123,7 +130,8 @@ export const projects = [
     },
     {
         name: "Graph Editor",
-        description: "An interactive graph editor made with Svelte.",
+        description:
+            "This is an interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
         url: "https://graph-editor.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/graph-editor",
         keywords: ["Svelte", "Tool"],
@@ -150,7 +158,7 @@ export const projects = [
     {
         name: "BookShelf",
         description:
-            "This app lets us add books to a digital library. It is mainly a demonstration of components and reactivity in Svelte. It also features nice 3-dimensional animations for opening/closing the book covers.",
+            "This app lets us add and edit books in a personal library. It also features 3-dimensional animations for opening/closing the book covers. This project illustrates Svelte components.",
         url: "https://bookshelfsvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/BookShelf",
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
@@ -160,7 +168,7 @@ export const projects = [
     {
         name: "Calendar App",
         description:
-            "This is a calendar app built just using JavaScript, CSS and HTML. Firebase is used for authentication and storage of events. Responsive design and a single day display mode make it possible to use this app also on a phone.",
+            "This is a calendar app built with no framework. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
         repo: "https://github.com/ScriptRaccoon/calendar",
         url: "https://wherethetimegoes.netlify.app/",
         tutorial:
@@ -176,7 +184,7 @@ export const projects = [
     {
         name: "Google Drive Upload form",
         description:
-            "This is a form which allows others to upload files to your Google Drive. As opposed to e-mail, the files go directly to where they belong.             As opposed to sharing a Google Drive folder, no Google account is required.",
+            "This is a Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
         tutorial: "https://youtu.be/78mrc9M_ONE",
         repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
         tutorial: "https://youtu.be/78mrc9M_ONE",
@@ -186,7 +194,7 @@ export const projects = [
     {
         name: "Sprite Animation",
         description:
-            "Template for a Platformer in JavaScript including Sprite animations.",
+            "This project shows how to make sprite animations with Vanilla JavaScript on an HTML canvas. The code serves as a template for more complex browser games.",
         repo: "https://github.com/ScriptRaccoon/Sprite-Animation",
         url: "https://sprite-anima.netlify.app/",
         tutorial:
@@ -202,7 +210,7 @@ export const projects = [
     {
         name: "Dancing circles",
         description:
-            "Browser game which lets you create circles which dance with each other. This means that they rotate around their modpoints as soon as they are close enough to each other. Lots of interesting and complex patterns emerge here.",
+            "Browser game which lets you create circles which <i>dance</i> with each other when they are close enough. Very interesting and complex patterns emerge from a simple rule.",
         url: "https://dancing-circles.netlify.app",
         repo: "https://github.com/ScriptRaccoon/dancing-circles",
         keywords: [
@@ -217,7 +225,7 @@ export const projects = [
     {
         name: "Cell simulation",
         description:
-            "This is a simulation of cells who are looking for food. They are attracted to this food and move smoothly towards it using a steering and a swimming motion, almost like fish. The parameters of this motion are randomized. Once the food is eaten by a cell, the cell grows and becomes slower, a new cell is born at that point, and new food appears elsewhere. This is just the first phase of the simulation. As the number of cells grows, other phases start, in which various types of cells are introduced, some of which are friends and some of which are opponents. You can use the menu to check out the numbers of each type of cell and to see their development over time.",
+            "A simulation of cells who are attracted to food and swim towards it. In later stages various types of other cells with individual behaviors are introduced.",
         repo: "https://github.com/ScriptRaccoon/Cell-Simulation",
         url: "https://cell-simulation.netlify.app/",
         keywords: [
@@ -227,11 +235,12 @@ export const projects = [
             "Graphics",
             "Simulation",
         ],
+        image: "cell.png",
     },
     {
         name: "CSS Sphere",
         description:
-            "An animated sphere made using 3-dimensional CSS. Works best in Chrome.",
+            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. Works best in Chrome.",
         url: "https://css-sphere.netlify.app",
         repo: "https://github.com/ScriptRaccoon/css-sphere",
         keywords: ["Graphics", "3D", "CSS"],
@@ -240,17 +249,22 @@ export const projects = [
     {
         name: "Let's draw",
         description:
-            "Tool for drawing with others online in real time, mainly serving as a demonstration of socket.io.",
+            "This app enables you to draw with others online in real-time. On the Node.js backend we use socket.io in order to sync and save the drawing events.",
         url: "https://lets-draw-online.herokuapp.com/",
         repo: "https://github.com/ScriptRaccoon/lets-draw",
-        keywords: ["Node", "Express", "websockets"],
+        keywords: [
+            "Node",
+            "Express",
+            "websockets",
+            "Vanilla JavaScript",
+        ],
         tutorial: "https://youtu.be/s-RCuZflUe4",
         image: "letsdraw.png",
     },
     {
         name: "Mahjong Solitaire",
         description:
-            "This is Mahjong solitaire as a browser game written with HTML, JavaScript, CSS. Select pairs of open tiles with identical images to remove them from the board. The game is won when no tiles are left.",
+            "This is a Mahjong solitaire game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tile is left.",
         repo: "https://github.com/ScriptRaccoon/mahjong-solitaire",
         url: "https://mahjong-solitaire.netlify.app/",
         tutorial: "https://youtu.be/oWDB4LaO4MU",
@@ -260,12 +274,13 @@ export const projects = [
     {
         name: "Chess program",
         description:
-            "This is a chess program made with HTML, JavaScript and CSS without any frameworks or libraries.",
+            "This is a single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. Possible moves and previous moves are highlighted.",
         repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
         url: "https://chess-singleplayer.netlify.app/",
         keywords: [
             "Browser game",
             "Vanilla JavaScript",
+            "Object-oriented",
             "Graphics",
             "Sass",
         ],
