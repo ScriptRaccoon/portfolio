@@ -41,6 +41,32 @@ export const projects = [
         image: "actors.jpg",
     },
     {
+        name: "Pool game",
+        description:
+            "This is a fun pool game written in Vanilla JavaScript. All drawing operations are done with an HTML canvas. Includes physics, light effects, shadows and sound effects.",
+        url: "https://pool-game.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/pool-game",
+        keywords: [
+            "Vanilla JavaScript",
+            "HTML Canvas",
+            "Browser game",
+            "Graphics",
+        ],
+        tutorial:
+            "https://www.youtube.com/playlist?list=PL1LHMFscti8vGfIvK5-9P5RAavTxzoQWP",
+        image: "pool.jpg",
+    },
+    {
+        name: "Graph Editor",
+        description:
+            "This is an interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
+        url: "https://graph-editor.netlify.app/",
+        repo: "https://github.com/ScriptRaccoon/graph-editor",
+        keywords: ["Svelte", "Tool"],
+        tutorial: "https://youtu.be/NRyYCifF1PQ",
+        image: "graph.jpg",
+    },
+    {
         name: "Spotify Playlist finder",
         description:
             "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this specific feature is not built into the Spotify app.",
@@ -56,6 +82,7 @@ export const projects = [
         ],
         image: "spotify.jpg",
     },
+
     {
         name: "Comparison of JavaScript frameworks",
         description:
@@ -75,6 +102,15 @@ export const projects = [
         image: "shoppinglist.jpg",
     },
     {
+        name: "CSS Sphere",
+        description:
+            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. This works by animating the perspective. Works best in Chrome.",
+        url: "https://css-sphere.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/css-sphere",
+        keywords: ["Graphics", "3D", "CSS"],
+        image: "sphere.jpg",
+    },
+    {
         name: "Svoodle",
         description:
             "A <a href='https://doodle.com' target='_blank'>doodle</a>-like app made with SvelteKit and Firebase which lets you quickly create polls which can be shared via links. Polls get deleted after a month.",
@@ -83,6 +119,7 @@ export const projects = [
         keywords: ["Full stack", "SvelteKit", "Firebase", "Tool"],
         image: "svoodle.jpg",
     },
+
     {
         name: "Whisper Note",
         description:
@@ -101,24 +138,22 @@ export const projects = [
             "https://www.youtube.com/playlist?list=PL1LHMFscti8s2_B2xJaEwMrR5fR73_9U9",
         image: "whispernote.jpg",
     },
-
     {
-        name: "Pool game",
+        name: "Chess program",
         description:
-            "This is a fun pool game written in Vanilla JavaScript. All drawing operations are done with an HTML canvas. Includes physics, light effects, shadows and sound effects.",
-        url: "https://pool-game.netlify.app",
-        repo: "https://github.com/ScriptRaccoon/pool-game",
+            "This is a single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
+        repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
+        url: "https://chess-singleplayer.netlify.app/",
         keywords: [
-            "Vanilla JavaScript",
-            "HTML Canvas",
             "Browser game",
+            "Vanilla JavaScript",
+            "Object-oriented",
             "Graphics",
+            "Sass",
+            "CSS",
         ],
-        tutorial:
-            "https://www.youtube.com/playlist?list=PL1LHMFscti8vGfIvK5-9P5RAavTxzoQWP",
-        image: "pool.jpg",
+        image: "chess.jpg",
     },
-
     {
         name: "Weather App",
         description:
@@ -129,16 +164,7 @@ export const projects = [
         tutorial: "https://youtu.be/akJEOD3El8I",
         image: "weather.jpg",
     },
-    {
-        name: "Graph Editor",
-        description:
-            "This is an interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
-        url: "https://graph-editor.netlify.app/",
-        repo: "https://github.com/ScriptRaccoon/graph-editor",
-        keywords: ["Svelte", "Tool"],
-        tutorial: "https://youtu.be/NRyYCifF1PQ",
-        image: "graph.jpg",
-    },
+
     {
         name: "Space Parallax",
         description:
@@ -182,21 +208,6 @@ export const projects = [
             "CSS",
         ],
         image: "calendar.jpg",
-    },
-    {
-        name: "Google Drive Upload form",
-        description:
-            "This is a Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
-        tutorial: "https://youtu.be/78mrc9M_ONE",
-        repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
-        tutorial: "https://youtu.be/78mrc9M_ONE",
-        keywords: [
-            "Full stack",
-            "Google Drive",
-            "Google Apps Script",
-            "Tool",
-        ],
-        image: "upload.jpg",
     },
     {
         name: "Sprite Animation",
@@ -245,15 +256,6 @@ export const projects = [
         image: "cell.jpg",
     },
     {
-        name: "CSS Sphere",
-        description:
-            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. This works by animating the perspective. Works best in Chrome.",
-        url: "https://css-sphere.netlify.app",
-        repo: "https://github.com/ScriptRaccoon/css-sphere",
-        keywords: ["Graphics", "3D", "CSS"],
-        image: "sphere.jpg",
-    },
-    {
         name: "Let's draw",
         description:
             "This app enables you to draw with others online in real-time. On the Node.js backend we use socket.io in order to sync and save the drawing events.",
@@ -278,20 +280,20 @@ export const projects = [
         keywords: ["Browser game", "Vanilla JavaScript", "CSS"],
         image: "mahjong.jpg",
     },
+
     {
-        name: "Chess program",
+        name: "Google Drive Upload form",
         description:
-            "This is a single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
-        repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
-        url: "https://chess-singleplayer.netlify.app/",
+            "This is a Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
+        tutorial: "https://youtu.be/78mrc9M_ONE",
+        repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
+        tutorial: "https://youtu.be/78mrc9M_ONE",
         keywords: [
-            "Browser game",
-            "Vanilla JavaScript",
-            "Object-oriented",
-            "Graphics",
-            "Sass",
-            "CSS",
+            "Full stack",
+            "Google Drive",
+            "Google Apps Script",
+            "Tool",
         ],
-        image: "chess.jpg",
+        image: "upload.jpg",
     },
 ];
