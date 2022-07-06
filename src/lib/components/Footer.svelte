@@ -1,7 +1,8 @@
 <footer>
     <p>
-        Made with <i class="fa-regular fa-heart" /> and
-        <a href="https://kit.svelte.dev" target="_blank">SvelteKit</a>
+        Made with <a href="https://kit.svelte.dev" target="_blank"
+            >SvelteKit</a
+        >
         by Script Raccoon
     </p>
     <ul>
