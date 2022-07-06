@@ -119,6 +119,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/sveltekit-weather",
         keywords: ["Full stack", "SvelteKit", "API"],
         tutorial: "https://youtu.be/akJEOD3El8I",
+        image: "weather.png",
     },
     {
         name: "Graph Editor",
@@ -127,6 +128,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/graph-editor",
         keywords: ["Svelte", "Tool"],
         tutorial: "https://youtu.be/NRyYCifF1PQ",
+        image: "graph.png",
     },
     {
         name: "Space Parallax",
@@ -153,6 +155,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/BookShelf",
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
         keywords: ["Svelte", "CSS", "Tool"],
+        image: "bookshelf.png",
     },
     {
         name: "Calendar App",
@@ -168,6 +171,7 @@ export const projects = [
             "Firebase",
             "Vanilla JavaScript",
         ],
+        image: "calendar.png",
     },
     {
         name: "Google Drive Upload form",
@@ -177,6 +181,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
         tutorial: "https://youtu.be/78mrc9M_ONE",
         keywords: ["Google Drive", "Google Apps Script", "Tool"],
+        image: "upload.png",
     },
     {
         name: "Sprite Animation",
@@ -192,11 +197,12 @@ export const projects = [
             "Vanilla JavaScript",
             "Object-oriented",
         ],
+        image: "sprite.png",
     },
     {
         name: "Dancing circles",
         description:
-            "Browser game which lets you create circles which dance with each othe. This means that they rotate around their modpoints as soon as they are close enough to each other. Lots of interesting and complex patterns emerge here.",
+            "Browser game which lets you create circles which dance with each other. This means that they rotate around their modpoints as soon as they are close enough to each other. Lots of interesting and complex patterns emerge here.",
         url: "https://dancing-circles.netlify.app",
         repo: "https://github.com/ScriptRaccoon/dancing-circles",
         keywords: [
@@ -206,6 +212,7 @@ export const projects = [
             "Graphics",
             "Simulation",
         ],
+        image: "dancing.png",
     },
     {
         name: "Cell simulation",
@@ -228,6 +235,7 @@ export const projects = [
         url: "https://css-sphere.netlify.app",
         repo: "https://github.com/ScriptRaccoon/css-sphere",
         keywords: ["Graphics", "3D", "CSS"],
+        image: "sphere.png",
     },
     {
         name: "Let's draw",
@@ -237,6 +245,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/lets-draw",
         keywords: ["Node", "Express", "websockets"],
         tutorial: "https://youtu.be/s-RCuZflUe4",
+        image: "letsdraw.png",
     },
     {
         name: "Mahjong Solitaire",
@@ -246,6 +255,7 @@ export const projects = [
         url: "https://mahjong-solitaire.netlify.app/",
         tutorial: "https://youtu.be/oWDB4LaO4MU",
         keywords: ["Browser game", "Vanilla JavaScript", "CSS"],
+        image: "mahjong.png",
     },
     {
         name: "Chess program",
@@ -259,5 +269,6 @@ export const projects = [
             "Graphics",
             "Sass",
         ],
+        image: "chess.png",
     },
 ];
