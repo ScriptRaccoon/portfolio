@@ -1,8 +1,3 @@
-<script>
-    import { slide, fade } from "svelte/transition";
-    let readMore = false;
-</script>
-
 <section>
     <h2>Welcome</h2>
     <p class="greet">
@@ -34,59 +29,6 @@
         >. Feel free to contact me via
         <a href="mailto:scriptraccoon@gmail.com">mail</a>.
     </p>
-
-    <button on:click={() => (readMore = !readMore)}>
-        {#if readMore}
-            Read less ...
-        {:else}
-            Read more about my stack ...
-        {/if}
-    </button>
-
-    {#if readMore}
-        <div class="more" transition:slide={{ duration: 800 }}>
-            <div transition:fade={{ duration: 800 }}>
-                <p>
-                    On the frontend, I usually use just <strong
-                        >Vanilla JavaScript</strong
-                    >
-                    (or <strong>jQuery</strong> in the old days),
-                    <strong>CSS</strong>
-                    and semantic <strong>HTML</strong>, sometimes also
-                    <strong>Sass</strong>.
-                </p>
-
-                <p>
-                    Recently I switched to
-                    <strong>Svelte</strong>
-                    because it makes life so much easier! I am also familiar
-                    with most other JavaScript frameworks around (<strong
-                        >React</strong
-                    >, <strong>Vue.js</strong>, SolidJS, Alpine, Lit,
-                    etc.).
-                </p>
-
-                <p>
-                    On the backend I use <strong>Node.js</strong> with
-                    <strong>Express</strong>, or
-                    <strong>Firebase</strong>, or go for a fullstack
-                    application with
-                    <strong>SvelteKit</strong>. Usually my sites are
-                    hosted on <strong>Heroku</strong>
-                    or <strong>Netlify</strong>.
-                </p>
-
-                <p>
-                    I have experience with other programming languages
-                    as well (<strong>Google Apps Script</strong>,
-                    <strong>TypeScript</strong>,
-                    <strong>Python</strong>,
-                    <strong>Java</strong>,
-                    <strong>PHP</strong>).
-                </p>
-            </div>
-        </div>
-    {/if}
 </section>
 
 <style>
@@ -102,19 +44,5 @@
     }
     p {
         padding-block: 10px;
-    }
-    strong {
-        font-weight: initial;
-        color: var(--tertiary-color);
-    }
-    button {
-        text-decoration: underline;
-    }
-    button:hover,
-    button:focus-visible {
-        color: var(--secondary-color);
-    }
-    .more {
-        padding-left: 15px;
     }
 </style>
