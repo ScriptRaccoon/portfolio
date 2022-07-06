@@ -67,11 +67,12 @@
 
     h3 {
         font-weight: 400;
-        font-size: 30px;
+        font-size: 32px;
         color: var(--secondary-color);
+        text-align: center;
     }
     .description {
-        margin: 12px 0px;
+        margin: 16px 0px;
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.5;
@@ -93,6 +94,7 @@
     .links {
         display: flex;
         gap: 14px;
+        font-size: 20px;
     }
     img {
         width: 100%;
