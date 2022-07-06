@@ -15,6 +15,16 @@ export const projects = [
         image: "svordle.png",
     },
     {
+        name: "Rubik's Cube",
+        description:
+            "This is a fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to build the cube from its components.",
+        url: "https://rubikscubesvelte.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
+        keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
+        tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
+        image: "cube.png",
+    },
+    {
         name: "Actors Info",
         description:
             "This app lets you look up pictures from all the movies and TV shows starring a given actor/actress, using the <a href='https://developers.themoviedb.org' target='_blank'>TMDB API</a> as well as Yahoo's image on the backend.",
@@ -29,16 +39,6 @@ export const projects = [
         ],
         tutorial: "https://youtu.be/5xzqEqQR7L4",
         image: "actors.png",
-    },
-    {
-        name: "Rubik's Cube",
-        description:
-            "This is a fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to build the cube from its components.",
-        url: "https://rubikscubesvelte.netlify.app",
-        repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
-        keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
-        tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
-        image: "cube.png",
     },
     {
         name: "Spotify Playlist finder",
