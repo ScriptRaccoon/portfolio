@@ -7,11 +7,17 @@
 </script>
 
 <header id="header">
-    <button on:click={toggleDarkMode}>
+    <button
+        aria-label="toggle dark mode"
+        title={darkMode
+            ? "switch to light mode"
+            : "switch to dark mode"}
+        on:click={toggleDarkMode}
+    >
         {#if darkMode}
-            <i class="fa-solid fa-sun" />
+            <i aria-hidden="true" class="fa-solid fa-sun" />
         {:else}
-            <i class="fa-solid fa-moon" />
+            <i aria-hidden="true" class="fa-solid fa-moon" />
         {/if}
     </button>
     <h1>Script Raccoon</h1>
