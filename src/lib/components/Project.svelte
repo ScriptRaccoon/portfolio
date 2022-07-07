@@ -89,15 +89,23 @@
     .keyword {
         background-color: var(--primary-color);
         color: white;
-        padding: 5px 12px;
-        border-radius: 10px;
-        font-size: 16px;
+        padding: 3px 8px;
+        border-radius: 6px;
+        font-size: 14px;
     }
     .links {
         display: flex;
-        gap: 14px;
-        font-size: 20px;
+        gap: 16px;
+        font-size: 22px;
     }
+    a {
+        color: var(--secondary-color);
+    }
+    a:hover,
+    a:focus-visible {
+        color: var(--primary-color);
+    }
+
     img {
         width: 100%;
         margin-top: 25px;

@@ -2,7 +2,7 @@
     --bg-color: #091017;
     --card-color: #101c29;
     --primary-color: orangered;
-    --secondary-color: yellow;
+    --secondary-color: rgb(240, 240, 0);
     --tertiary-color: skyblue;
     --font-color: #eee;
     --icon-border: transparent;
@@ -40,12 +40,13 @@ body.light {
     --tertiary-color: hsl(182, 59%, 33%);
     --font-color: #202020;
     --icon-border: #ccc;
-    --card-border: #0003;
+    --card-border: transparent;
 }
 
 a {
     color: inherit;
     text-underline-offset: 2px;
+    transition: all 80ms linear;
 }
 
 a:focus-visible,
