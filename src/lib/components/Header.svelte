@@ -1,4 +1,4 @@
-<header>
+<header id="header">
     <h1>Script Raccoon</h1>
     <img
         src="/assets/ScriptRaccoon.svg"
