@@ -1,12 +1,14 @@
 <script>
-    import { onMount } from "svelte";
+    import { onDestroy, onMount } from "svelte";
 
     export let words;
     let index = 0;
     let len = words[index].length;
     let grow = true;
+    let id;
     onMount(() => {
-        let id = setInterval(() => {
+        id = setInterval(() => {
+            console.log("interval is running");
             if (grow) {
                 len++;
                 if (len > words[index].length + 30) {
@@ -25,10 +27,9 @@
                 }
             }
         }, 90);
-        () => {
-            clearInterval(id);
-        };
     });
+
+    onDestroy(() => clearInterval(id));
 </script>
 
 <span>
