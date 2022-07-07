@@ -1,7 +1,7 @@
 <script>
-    import { darkMode } from "../stores";
+    let darkMode = true;
     function toggleDarkMode() {
-        $darkMode = !$darkMode;
+        darkMode = !darkMode;
         document.body.classList.toggle("light");
     }
 </script>
