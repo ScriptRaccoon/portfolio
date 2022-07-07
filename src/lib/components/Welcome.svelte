@@ -43,9 +43,6 @@
 </section>
 
 <style>
-    .greet {
-        color: var(--tertiary-color);
-    }
     section {
         max-width: 720px;
         margin-inline: auto;
@@ -56,11 +53,20 @@
     p {
         padding-block: 8px;
     }
+    .greet {
+        color: var(--tertiary-color);
+    }
     a {
         color: var(--tertiary-color);
     }
     a:focus-visible,
     a:hover {
         color: var(--secondary-color);
+    }
+    @media (max-width: 420px) {
+        .greet {
+            height: 62px;
+            padding-bottom: 0;
+        }
     }
 </style>
