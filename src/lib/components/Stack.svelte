@@ -129,7 +129,7 @@
     </div>
 
     <h3>Familiar with</h3>
-    <div class="logos">
+    <div class="logos familiar">
         {#each familiarLogos as { image, name, url }}
             <a href={url} target="_blank">
                 <img
@@ -159,11 +159,13 @@
         padding: 10px 0px 15px 0px;
     }
     img {
-        min-width: 30px;
-        max-width: 30px;
+        width: 30px;
         margin: 10px;
     }
     img:hover {
-        transform: scale(1.04);
+        transform: scale(1.1);
+    }
+    .logos.familiar img {
+        width: 20px;
     }
 </style>
