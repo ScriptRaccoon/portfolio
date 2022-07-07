@@ -1,4 +1,15 @@
+<script>
+    export let darkMode = true;
+</script>
+
 <header id="header">
+    <button on:click={() => (darkMode = !darkMode)}>
+        {#if darkMode}
+            <i class="fa-solid fa-sun" />
+        {:else}
+            <i class="fa-solid fa-moon" />
+        {/if}
+    </button>
     <h1>Script Raccoon</h1>
     <img
         src="/assets/ScriptRaccoon.svg"
@@ -38,5 +49,10 @@
             opacity: 1;
             transform: scale(1);
         }
+    }
+    button {
+        position: absolute;
+        top: 10px;
+        right: 15px;
     }
 </style>
