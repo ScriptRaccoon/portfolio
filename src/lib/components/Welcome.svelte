@@ -51,6 +51,7 @@
         margin-inline: auto;
         font-size: 20px;
         line-height: 1.5;
+        padding-inline: 15px;
     }
     p {
         padding-block: 8px;

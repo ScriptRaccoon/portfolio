@@ -145,6 +145,7 @@
 <style>
     section {
         background-color: var(--card-color);
+        padding-inline: 15px;
     }
     .love {
         color: var(--primary-color);

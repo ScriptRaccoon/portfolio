@@ -19,16 +19,7 @@
 </svelte:head>
 
 <Header />
-
-<main>
-    <Welcome />
-    <Stack />
-    <Portfolio />
-</main>
+<Welcome />
+<Stack />
+<Portfolio />
 <Footer />
-
-<style>
-    main {
-        padding-inline: 15px;
-    }
-</style>
