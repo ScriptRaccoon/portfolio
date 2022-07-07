@@ -154,7 +154,6 @@
     }
     h3 {
         text-align: center;
-        font-weight: 400;
         color: var(--tertiary-color);
     }
     .logos {
