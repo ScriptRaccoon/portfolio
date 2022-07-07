@@ -165,7 +165,6 @@
     }
     img {
         width: 30px;
-        /* margin: 10px; */
     }
     img:hover {
         transform: scale(1.1);
