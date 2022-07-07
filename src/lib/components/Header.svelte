@@ -37,6 +37,7 @@
     header {
         padding-top: 30px;
         text-align: center;
+        height: 110px;
     }
 
     img {
