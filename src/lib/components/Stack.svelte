@@ -143,11 +143,13 @@
 </section>
 
 <style>
+    section {
+        background-color: var(--card-color);
+    }
     .love {
         color: var(--primary-color);
         text-align: center;
         padding-bottom: 30px;
-        /* font-size: 14px; */
     }
     h3 {
         text-align: center;
