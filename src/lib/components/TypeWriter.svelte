@@ -8,7 +8,6 @@
     let id;
     onMount(() => {
         id = setInterval(() => {
-            console.log("interval is running");
             if (grow) {
                 len++;
                 if (len > words[index].length + 30) {
