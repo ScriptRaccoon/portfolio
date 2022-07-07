@@ -34,7 +34,7 @@ body {
 
 body.light {
     --bg-color: white;
-    --card-color: #ccc;
+    --card-color: #ddd;
     --primary-color: orangered;
     --secondary-color: #203c54;
     --tertiary-color: hsl(182, 59%, 33%);
