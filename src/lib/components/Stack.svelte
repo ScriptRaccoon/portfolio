@@ -156,11 +156,16 @@
     }
     .logos {
         text-align: center;
-        padding: 10px 0px 15px 0px;
+        padding: 20px 0px 25px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
     img {
         width: 30px;
-        margin: 10px;
+        /* margin: 10px; */
     }
     img:hover {
         transform: scale(1.1);
