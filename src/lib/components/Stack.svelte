@@ -99,7 +99,7 @@
 
 <section>
     <h2>Stack</h2>
-
+    <p class="love">I love to build stuff with Svelte!</p>
     <h3>Frontend</h3>
     <div class="logos">
         {#each frontendLogos as { image, name, url }}
@@ -112,8 +112,6 @@
             >
         {/each}
     </div>
-
-    <p class="love">I love to build stuff with Svelte!</p>
 
     <h3>Backend</h3>
     <div class="logos">
@@ -148,9 +146,9 @@
         padding-inline: 15px;
     }
     .love {
-        color: var(--primary-color);
         text-align: center;
         padding-bottom: 30px;
+        font-style: italic;
     }
     h3 {
         text-align: center;
