@@ -26,6 +26,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    transition: color 200ms linear, background-color 200ms linear;
+}
+
+body.light {
+    --bg-color: white;
+    --card-color: #ccc;
+    --primary-color: orangered;
+    --secondary-color: #203c54;
+    --tertiary-color: #662898;
+    --font-color: #202020;
 }
 
 a {

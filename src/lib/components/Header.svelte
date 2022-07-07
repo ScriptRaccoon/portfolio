@@ -1,9 +1,13 @@
 <script>
-    export let darkMode = true;
+    import { darkMode } from "../stores";
+    function toggleDarkMode() {
+        darkMode.set((x) => !x);
+        document.body.classList.toggle("light");
+    }
 </script>
 
 <header id="header">
-    <button on:click={() => (darkMode = !darkMode)}>
+    <button on:click={toggleDarkMode}>
         {#if darkMode}
             <i class="fa-solid fa-sun" />
         {:else}
