@@ -31,6 +31,16 @@
                 <i aria-hidden="true" class="fa-brands fa-twitter" />
             </a>
         </li>
+        <li>
+            <a
+                href="mailto:scriptraccoon@gmail.com"
+                target="_blank"
+                aria-label="Email me"
+                title="Email me"
+            >
+                <i aria-hidden="true" class="fa-solid fa-envelope" />
+            </a>
+        </li>
     </ul>
 </footer>
 

@@ -10,12 +10,12 @@
                 "web developer.",
                 "mathematician.",
                 "content creator.",
-                "drummer :)",
+                "drummer :-)",
             ]}
         />
     </p>
     <p>
-        My projects can be found on
+        My personal projects can be found on
         <a href="https://github.com/ScriptRaccoon/" target="_blank"
             >GitHub</a
         >, a selection of which can be found
@@ -31,14 +31,6 @@
             target="_blank">YouTube</a
         >
         in German.
-    </p>
-
-    <p>
-        You can also find me on
-        <a href="https://twitter.com/ScriptRaccoon/" target="_blank"
-            >Twitter</a
-        >. Feel free to contact me via
-        <a href="mailto:scriptraccoon@gmail.com">mail</a>.
     </p>
 </section>
 
