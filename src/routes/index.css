@@ -5,6 +5,9 @@
     --secondary-color: yellow;
     --tertiary-color: skyblue;
     --font-color: #eee;
+    --icon-border: transparent;
+    --card-border: #0005;
+    --footer-color: #eee;
 }
 
 * {
@@ -36,6 +39,8 @@ body.light {
     --secondary-color: #203c54;
     --tertiary-color: #662898;
     --font-color: #202020;
+    --icon-border: #ccc;
+    --card-border: #0003;
 }
 
 a {

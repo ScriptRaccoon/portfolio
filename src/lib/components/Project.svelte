@@ -61,7 +61,7 @@
 <style>
     .item {
         background-color: var(--card-color);
-        box-shadow: 0px 0px 20px #0005;
+        box-shadow: 0px 0px 20px var(--card-border);
         border-radius: 14px;
     }
     article {

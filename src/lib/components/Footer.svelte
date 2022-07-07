@@ -40,6 +40,7 @@
         padding: 5px 20px 20px 20px;
         margin-top: auto;
         text-align: center;
+        color: var(--footer-color);
     }
     p:first-child {
         padding-bottom: 10px;

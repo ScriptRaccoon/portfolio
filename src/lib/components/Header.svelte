@@ -1,7 +1,7 @@
 <script>
     import { darkMode } from "../stores";
     function toggleDarkMode() {
-        darkMode.set((x) => !x);
+        $darkMode = !$darkMode;
         document.body.classList.toggle("light");
     }
 </script>
@@ -39,7 +39,9 @@
         border-radius: 50%;
         animation: fade 900ms ease-out forwards;
         transform: scale(0);
+        border: 1px solid var(--icon-border);
     }
+
     @keyframes fade {
         0% {
             opacity: 0;
