@@ -67,6 +67,15 @@ export const projects = [
         image: "graph.jpg",
     },
     {
+        name: "CSS Sphere",
+        description:
+            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. This works by animating the perspective. Works best in Chrome.",
+        url: "https://css-sphere.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/css-sphere",
+        keywords: ["Graphics", "3D", "CSS"],
+        image: "sphere.jpg",
+    },
+    {
         name: "Spotify Playlist Finder",
         description:
             "Finds all of your Spotify playlists which contain a specific song. Surprisingly, this specific feature is not built into the Spotify app.",
@@ -82,7 +91,23 @@ export const projects = [
         ],
         image: "spotify.jpg",
     },
-
+    {
+        name: "Calendar App",
+        description:
+            "Calendar app built with Vanilla JavaScript. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
+        repo: "https://github.com/ScriptRaccoon/calendar",
+        url: "https://wherethetimegoes.netlify.app/",
+        tutorial:
+            "https://www.youtube.com/playlist?list=PL1LHMFscti8twqDyMR9nb8Eh1pxsn3nlw",
+        keywords: [
+            "Full stack",
+            "Tool",
+            "Firebase",
+            "Vanilla JavaScript",
+            "CSS",
+        ],
+        image: "calendar.jpg",
+    },
     {
         name: "Comparison of JavaScript frameworks",
         description:
@@ -101,15 +126,7 @@ export const projects = [
         ],
         image: "shoppinglist.jpg",
     },
-    {
-        name: "CSS Sphere",
-        description:
-            "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. This works by animating the perspective. Works best in Chrome.",
-        url: "https://css-sphere.netlify.app",
-        repo: "https://github.com/ScriptRaccoon/css-sphere",
-        keywords: ["Graphics", "3D", "CSS"],
-        image: "sphere.jpg",
-    },
+
     {
         name: "Svoodle",
         description:
@@ -119,7 +136,22 @@ export const projects = [
         keywords: ["Full stack", "SvelteKit", "Firebase", "Tool"],
         image: "svoodle.jpg",
     },
-
+    {
+        name: "Chess program",
+        description:
+            "A single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
+        repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
+        url: "https://chess-singleplayer.netlify.app/",
+        keywords: [
+            "Browser game",
+            "Vanilla JavaScript",
+            "Object-oriented",
+            "Graphics",
+            "Sass",
+            "CSS",
+        ],
+        image: "chess.jpg",
+    },
     {
         name: "Whisper Note",
         description:
@@ -139,21 +171,21 @@ export const projects = [
         image: "whispernote.jpg",
     },
     {
-        name: "Chess program",
+        name: "Dancing circles",
         description:
-            "A single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
-        repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
-        url: "https://chess-singleplayer.netlify.app/",
+            "Create circles which <i>dance</i> with each other when they are close enough. Very interesting and complex patterns emerge from a simple rule.",
+        url: "https://dancing-circles.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/dancing-circles",
         keywords: [
-            "Browser game",
             "Vanilla JavaScript",
             "Object-oriented",
+            "HTML Canvas",
             "Graphics",
-            "Sass",
-            "CSS",
+            "Simulation",
         ],
-        image: "chess.jpg",
+        image: "dancing.jpg",
     },
+
     {
         name: "Weather App",
         description:
@@ -206,23 +238,7 @@ export const projects = [
         ],
         image: "slide.jpg",
     },
-    {
-        name: "Calendar App",
-        description:
-            "Calendar app built with Vanilla JavaScript. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
-        repo: "https://github.com/ScriptRaccoon/calendar",
-        url: "https://wherethetimegoes.netlify.app/",
-        tutorial:
-            "https://www.youtube.com/playlist?list=PL1LHMFscti8twqDyMR9nb8Eh1pxsn3nlw",
-        keywords: [
-            "Full stack",
-            "Tool",
-            "Firebase",
-            "Vanilla JavaScript",
-            "CSS",
-        ],
-        image: "calendar.jpg",
-    },
+
     {
         name: "Sprite Animation",
         description:
@@ -239,36 +255,7 @@ export const projects = [
         ],
         image: "sprite.jpg",
     },
-    {
-        name: "Dancing circles",
-        description:
-            "Create circles which <i>dance</i> with each other when they are close enough. Very interesting and complex patterns emerge from a simple rule.",
-        url: "https://dancing-circles.netlify.app",
-        repo: "https://github.com/ScriptRaccoon/dancing-circles",
-        keywords: [
-            "Vanilla JavaScript",
-            "Object-oriented",
-            "HTML Canvas",
-            "Graphics",
-            "Simulation",
-        ],
-        image: "dancing.jpg",
-    },
-    {
-        name: "Cell simulation",
-        description:
-            "A simulation of cells who are attracted to food and swim towards it. In later stages various types of other cells with individual behaviors are introduced.",
-        repo: "https://github.com/ScriptRaccoon/Cell-Simulation",
-        url: "https://cell-simulation.netlify.app/",
-        keywords: [
-            "Vanilla JavaScript",
-            "Object-oriented",
-            "HTML Canvas",
-            "Graphics",
-            "Simulation",
-        ],
-        image: "cell.jpg",
-    },
+
     {
         name: "Let's draw",
         description:
@@ -293,6 +280,21 @@ export const projects = [
         tutorial: "https://youtu.be/oWDB4LaO4MU",
         keywords: ["Browser game", "Vanilla JavaScript", "CSS"],
         image: "mahjong.jpg",
+    },
+    {
+        name: "Cell simulation",
+        description:
+            "A simulation of cells who are attracted to food and swim towards it. In later stages various types of other cells with individual behaviors are introduced.",
+        repo: "https://github.com/ScriptRaccoon/Cell-Simulation",
+        url: "https://cell-simulation.netlify.app/",
+        keywords: [
+            "Vanilla JavaScript",
+            "Object-oriented",
+            "HTML Canvas",
+            "Graphics",
+            "Simulation",
+        ],
+        image: "cell.jpg",
     },
 
     {
