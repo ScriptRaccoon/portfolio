@@ -8,6 +8,7 @@ export const projects = [
         keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
         tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
         image: "cube.jpg",
+        rating: 1,
     },
     {
         name: "Svordle",
@@ -23,6 +24,7 @@ export const projects = [
         ],
         tutorial: "https://youtu.be/CMIwJLS0dns",
         image: "svordle.jpg",
+        rating: 1,
     },
     {
         name: "Actors Info",
@@ -39,6 +41,7 @@ export const projects = [
         ],
         tutorial: "https://youtu.be/5xzqEqQR7L4",
         image: "actors.jpg",
+        rating: 1,
     },
     {
         name: "Pool game",
@@ -55,6 +58,7 @@ export const projects = [
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8vGfIvK5-9P5RAavTxzoQWP",
         image: "pool.jpg",
+        rating: 1,
     },
     {
         name: "Graph Editor",
@@ -65,6 +69,7 @@ export const projects = [
         keywords: ["Svelte", "Tool"],
         tutorial: "https://youtu.be/NRyYCifF1PQ",
         image: "graph.jpg",
+        rating: 2,
     },
     {
         name: "CSS Sphere",
@@ -74,6 +79,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/css-sphere",
         keywords: ["Graphics", "3D", "CSS"],
         image: "sphere.jpg",
+        rating: 2,
     },
     {
         name: "Spotify Playlist Finder",
@@ -90,6 +96,7 @@ export const projects = [
             "OAuth",
         ],
         image: "spotify.jpg",
+        rating: 2,
     },
     {
         name: "Calendar App",
@@ -107,6 +114,7 @@ export const projects = [
             "CSS",
         ],
         image: "calendar.jpg",
+        rating: 1,
     },
     {
         name: "Comparison of JavaScript frameworks",
@@ -125,6 +133,7 @@ export const projects = [
             "Benchmark",
         ],
         image: "shoppinglist.jpg",
+        rating: 2,
     },
 
     {
@@ -135,6 +144,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/svoodle",
         keywords: ["Full stack", "SvelteKit", "Firebase", "Tool"],
         image: "svoodle.jpg",
+        rating: 2,
     },
     {
         name: "Chess program",
@@ -151,6 +161,7 @@ export const projects = [
             "CSS",
         ],
         image: "chess.jpg",
+        rating: 1,
     },
     {
         name: "Whisper Note",
@@ -169,6 +180,7 @@ export const projects = [
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8s2_B2xJaEwMrR5fR73_9U9",
         image: "whispernote.jpg",
+        rating: 2,
     },
     {
         name: "Dancing circles",
@@ -184,6 +196,7 @@ export const projects = [
             "Simulation",
         ],
         image: "dancing.jpg",
+        rating: 2,
     },
 
     {
@@ -195,6 +208,7 @@ export const projects = [
         keywords: ["Full stack", "SvelteKit", "API"],
         tutorial: "https://youtu.be/akJEOD3El8I",
         image: "weather.jpg",
+        rating: 3,
     },
 
     {
@@ -213,6 +227,7 @@ export const projects = [
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8sBtJOzgVKFHpxuMa-moSPX",
         image: "space.jpg",
+        rating: 1,
     },
     {
         name: "BookShelf",
@@ -223,6 +238,7 @@ export const projects = [
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
         keywords: ["3D", "Svelte", "CSS", "Tool"],
         image: "bookshelf.jpg",
+        rating: 2,
     },
     {
         name: "Slide Puzzles",
@@ -237,6 +253,7 @@ export const projects = [
             "Graphics",
         ],
         image: "slide.jpg",
+        rating: 3,
     },
 
     {
@@ -254,6 +271,7 @@ export const projects = [
             "Object-oriented",
         ],
         image: "sprite.jpg",
+        rating: 2,
     },
 
     {
@@ -270,6 +288,7 @@ export const projects = [
         ],
         tutorial: "https://youtu.be/s-RCuZflUe4",
         image: "letsdraw.jpg",
+        rating: 3,
     },
     {
         name: "Mahjong Solitaire",
@@ -280,6 +299,7 @@ export const projects = [
         tutorial: "https://youtu.be/oWDB4LaO4MU",
         keywords: ["Browser game", "Vanilla JavaScript", "CSS"],
         image: "mahjong.jpg",
+        rating: 2,
     },
     {
         name: "Cell simulation",
@@ -295,8 +315,8 @@ export const projects = [
             "Simulation",
         ],
         image: "cell.jpg",
+        rating: 3,
     },
-
     {
         name: "Google Drive Upload form",
         description:
@@ -311,5 +331,6 @@ export const projects = [
             "Tool",
         ],
         image: "upload.jpg",
+        rating: 3,
     },
 ];
