@@ -1,5 +1,5 @@
 <script>
-    import "./index.css";
+    import "./index.scss";
     import Footer from "$lib/components/Footer.svelte";
     import Header from "$lib/components/Header.svelte";
     import Portfolio from "../lib/components/Portfolio.svelte";

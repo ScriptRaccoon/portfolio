@@ -44,23 +44,23 @@
     </ul>
 </footer>
 
-<style>
+<style lang="scss">
     footer {
         background-color: var(--primary-color);
         padding: 5px 20px 20px 20px;
         margin-top: auto;
         text-align: center;
         color: var(--footer-color);
-    }
-    p:first-child {
-        padding-bottom: 10px;
-    }
-    ul {
-        margin-top: 15px;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        font-size: 24px;
+        ul {
+            margin-top: 15px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 24px;
+        }
+        p:first-child {
+            padding-bottom: 10px;
+        }
     }
 </style>

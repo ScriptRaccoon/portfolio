@@ -34,7 +34,7 @@
     </p>
 </section>
 
-<style>
+<style lang="scss">
     section {
         max-width: 720px;
         margin-inline: auto;
@@ -47,18 +47,16 @@
     }
     .greet {
         color: var(--tertiary-color);
+        @media (max-width: 420px) {
+            height: 62px;
+            padding-bottom: 0;
+        }
     }
     a {
         color: var(--tertiary-color);
-    }
-    a:focus-visible,
-    a:hover {
-        color: var(--secondary-color);
-    }
-    @media (max-width: 420px) {
-        .greet {
-            height: 62px;
-            padding-bottom: 0;
+        &:focus-visible,
+        &:hover {
+            color: var(--secondary-color);
         }
     }
 </style>

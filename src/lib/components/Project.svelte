@@ -58,58 +58,56 @@
     </article>
 </div>
 
-<style>
+<style lang="scss">
     .item {
         background-color: var(--card-color);
         box-shadow: 0px 0px 20px var(--card-border);
         border-radius: 14px;
-    }
-    article {
-        padding: 20px;
-    }
-
-    h3 {
-        font-size: 32px;
-        color: var(--secondary-color);
-        text-align: center;
-    }
-    .description {
-        margin: 16px 0px;
-        font-size: 16px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        line-height: 1.5;
-    }
-    .keywords {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 20px;
-        font-family: consolas, mono-space;
-    }
-    .keyword {
-        background-color: var(--primary-color);
-        color: white;
-        padding: 3px 8px;
-        border-radius: 6px;
-        font-size: 14px;
-    }
-    .links {
-        display: flex;
-        gap: 16px;
-        font-size: 22px;
-    }
-    a {
-        color: var(--secondary-color);
-    }
-    a:hover,
-    a:focus-visible {
-        color: var(--primary-color);
-    }
-
-    img {
-        width: 100%;
-        margin-top: 25px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 20px #0003;
+        article {
+            padding: 20px;
+            h3 {
+                font-size: 32px;
+                color: var(--secondary-color);
+                text-align: center;
+            }
+            img {
+                width: 100%;
+                margin-top: 25px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 20px #0003;
+            }
+            .description {
+                margin: 16px 0px;
+                font-size: 16px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                line-height: 1.5;
+            }
+            .keywords {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 20px;
+                font-family: consolas, mono-space;
+                .keyword {
+                    background-color: var(--primary-color);
+                    color: white;
+                    padding: 3px 8px;
+                    border-radius: 6px;
+                    font-size: 14px;
+                }
+            }
+            .links {
+                display: flex;
+                gap: 16px;
+                font-size: 22px;
+                a {
+                    color: var(--secondary-color);
+                    &:hover,
+                    &:focus-visible {
+                        color: var(--primary-color);
+                    }
+                }
+            }
+        }
     }
 </style>

@@ -18,7 +18,6 @@ body {
     display: flex;
     flex-direction: column;
     transition: color 200ms linear, background-color 200ms linear;
-    /* colors: */
     --bg-color: #091017;
     --card-color: #101c29;
     --primary-color: orangered;
@@ -28,28 +27,27 @@ body {
     --icon-border: transparent;
     --card-border: #0005;
     --footer-color: #eee;
-}
-
-body.light {
-    --bg-color: white;
-    --card-color: #e8e8e8;
-    --primary-color: orangered;
-    --secondary-color: #003a4c;
-    --tertiary-color: hsl(182, 59%, 33%);
-    --font-color: #202020;
-    --icon-border: #ccc;
-    --card-border: transparent;
+    &.light {
+        --bg-color: white;
+        --card-color: #e8e8e8;
+        --primary-color: orangered;
+        --secondary-color: #003a4c;
+        --tertiary-color: hsl(182, 59%, 33%);
+        --font-color: #202020;
+        --icon-border: #ccc;
+        --card-border: transparent;
+    }
 }
 
 a {
     color: inherit;
     text-underline-offset: 2px;
     transition: all 80ms linear;
-}
 
-a:focus-visible,
-a:hover {
-    color: var(--secondary-color);
+    &:focus-visible,
+    &:hover {
+        color: var(--secondary-color);
+    }
 }
 
 input,

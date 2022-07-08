@@ -130,33 +130,33 @@
     </div>
 </section>
 
-<style>
+<style lang="scss">
     section {
         background-color: var(--card-color);
         padding-inline: 15px;
-    }
-    .love {
-        text-align: center;
-        padding-bottom: 30px;
-        font-style: italic;
-    }
-    h3 {
-        text-align: center;
-        color: var(--tertiary-color);
-    }
-    .logos {
-        text-align: center;
-        padding: 20px 0px 25px 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-    img {
-        width: 30px;
-    }
-    img:hover {
-        transform: scale(1.1);
+        h3 {
+            text-align: center;
+            color: var(--tertiary-color);
+        }
+        .love {
+            text-align: center;
+            padding-bottom: 30px;
+            font-style: italic;
+        }
+        .logos {
+            text-align: center;
+            padding: 20px 0px 25px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            img {
+                width: 30px;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
     }
 </style>
