@@ -70,16 +70,6 @@
             url: "https://reactjs.org/",
         },
         {
-            image: "solid-logo.png",
-            name: "SolidJS",
-            url: "https://www.solidjs.com/",
-        },
-        {
-            image: "lit-logo.png",
-            name: "Lit",
-            url: "https://lit.dev/",
-        },
-        {
             image: "java-logo.png",
             name: "Java",
             url: "https://www.java.com",
