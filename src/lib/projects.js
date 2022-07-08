@@ -1,8 +1,18 @@
 export const projects = [
     {
+        name: "Rubik's Cube",
+        description:
+            "Fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to construct the cube from its components.",
+        url: "https://rubikscubesvelte.netlify.app",
+        repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
+        keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
+        tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
+        image: "cube.jpg",
+    },
+    {
         name: "Svordle",
         description:
-            "This is a version of the <a href='https://www.nytimes.com/games/wordle' target='_blank'>Wordle game</a> built with Svelte on the frontend and Netlify's serverless functions on the backend. Cheating is impossible since the correct word is encrypted.",
+            "The <a href='https://www.nytimes.com/games/wordle' target='_blank'>Wordle game</a> built with Svelte on the frontend and Netlify's serverless functions on the backend. Cheating is impossible since the correct word gets encrypted.",
         url: "https://svordle.xyz",
         repo: "https://github.com/ScriptRaccoon/Svordle",
         keywords: [
@@ -15,19 +25,9 @@ export const projects = [
         image: "svordle.jpg",
     },
     {
-        name: "Rubik's Cube",
-        description:
-            "This is a fully functional Rubik's Cube. The graphics is made with 3-dimensional CSS, no graphics library is used. Svelte makes it easy to construct the cube from its components.",
-        url: "https://rubikscubesvelte.netlify.app",
-        repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
-        keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
-        tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
-        image: "cube.jpg",
-    },
-    {
         name: "Actors Info",
         description:
-            "This app lets you look up pictures from all the movies and TV shows starring a given actor/actress, using the <a href='https://developers.themoviedb.org' target='_blank'>TMDB API</a> as well as Yahoo's image on the backend.",
+            "Look up pictures from all the movies and TV shows starring a given actor/actress. This uses the <a href='https://developers.themoviedb.org' target='_blank'>TMDB API</a> as well as crawling through Yahoo's image search on the backend.",
         url: "https://actorsinfo.herokuapp.com",
         keywords: [
             "Full stack",
@@ -43,7 +43,7 @@ export const projects = [
     {
         name: "Pool game",
         description:
-            "This is a fun pool game written in Vanilla JavaScript. All drawing operations are done with an HTML canvas. Includes physics, light effects, shadows and sound effects.",
+            "Fun pool game written in Vanilla JavaScript. All drawing operations are done with an HTML canvas. Includes physics, light effects, shadows and sound effects.",
         url: "https://pool-game.netlify.app",
         repo: "https://github.com/ScriptRaccoon/pool-game",
         keywords: [
@@ -59,7 +59,7 @@ export const projects = [
     {
         name: "Graph Editor",
         description:
-            "This is an interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
+            "Interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
         url: "https://graph-editor.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/graph-editor",
         keywords: ["Svelte", "Tool"],
@@ -67,9 +67,9 @@ export const projects = [
         image: "graph.jpg",
     },
     {
-        name: "Spotify Playlist finder",
+        name: "Spotify Playlist Finder",
         description:
-            "This app finds all of your Spotify playlists which contain a specific song. Surprisingly, this specific feature is not built into the Spotify app.",
+            "Finds all of your Spotify playlists which contain a specific song. Surprisingly, this specific feature is not built into the Spotify app.",
         repo: "https://github.com/ScriptRaccoon/spotify-playlist-finder",
         url: "https://spotify-playlist-finder.herokuapp.com/",
         keywords: [
@@ -123,7 +123,7 @@ export const projects = [
     {
         name: "Whisper Note",
         description:
-            "A tool to share secrets via a one-time-link and an optional password, very similar to <a href='https://onetimesecret.com/' target='_blank'>onetimesecret</a>. The data is encrypted and stored in Firebase.",
+            "Share secrets via a one-time-link and an optional password, very similar to <a href='https://onetimesecret.com/' target='_blank'>onetimesecret</a>. The data is encrypted and stored in Firebase.",
         url: "https://whispernote.herokuapp.com/",
         repo: "https://github.com/ScriptRaccoon/WhisperNote",
         keywords: [
@@ -141,7 +141,7 @@ export const projects = [
     {
         name: "Chess program",
         description:
-            "This is a single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
+            "A single-player chess program made with Vanilla JavaScript and Sass. All chess rules are supported. There are highlights for previous and allowed moves.",
         repo: "https://github.com/ScriptRaccoon/chess-singleplayer",
         url: "https://chess-singleplayer.netlify.app/",
         keywords: [
@@ -157,7 +157,7 @@ export const projects = [
     {
         name: "Weather App",
         description:
-            "This is a simple weather app made with SvelteKit. The data comes from <a href='https://openweathermap.org/' target='_blank'>OpenWeather API</a>. This project mainly serves as an illustration of SvelteKit endpoints.",
+            "A simple weather app made with SvelteKit. The data comes from <a href='https://openweathermap.org/' target='_blank'>OpenWeather API</a> via a SvelteKit endpoint.",
         url: "https://weather-sveltekit.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/sveltekit-weather",
         keywords: ["Full stack", "SvelteKit", "API"],
@@ -168,7 +168,7 @@ export const projects = [
     {
         name: "Space Parallax",
         description:
-            "This is a space shooter game. You can navigate a spaceship through space and shoot asteroids with lazers. The stars in the background show a parallax effect, therefore the name.",
+            "In this space shooter game you navigate a spaceship through space and shoot asteroids with lazers. The stars in the background show a parallax effect, therefore the name.",
         url: "https://spaceship-parallax.netlify.app",
         repo: "https://github.com/ScriptRaccoon/spaceship-parallax",
         keywords: [
@@ -185,7 +185,7 @@ export const projects = [
     {
         name: "BookShelf",
         description:
-            "This app lets us create a personal digital library. It features 3-dimensional animations for opening/closing the book covers. This project mainly illustrates Svelte components.",
+            "Create a personal digital library. Features 3-dimensional animations for opening/closing the book covers. This project mainly illustrates Svelte components.",
         url: "https://bookshelfsvelte.netlify.app",
         repo: "https://github.com/ScriptRaccoon/BookShelf",
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
@@ -195,7 +195,7 @@ export const projects = [
     {
         name: "Calendar App",
         description:
-            "This is a calendar app built with no frameworks. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
+            "Calendar app built with Vanilla JavaScript. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
         repo: "https://github.com/ScriptRaccoon/calendar",
         url: "https://wherethetimegoes.netlify.app/",
         tutorial:
@@ -228,7 +228,7 @@ export const projects = [
     {
         name: "Dancing circles",
         description:
-            "Browser game which lets you create circles which <i>dance</i> with each other when they are close enough. Very interesting and complex patterns emerge from a simple rule.",
+            "Create circles which <i>dance</i> with each other when they are close enough. Very interesting and complex patterns emerge from a simple rule.",
         url: "https://dancing-circles.netlify.app",
         repo: "https://github.com/ScriptRaccoon/dancing-circles",
         keywords: [
@@ -258,7 +258,7 @@ export const projects = [
     {
         name: "Let's draw",
         description:
-            "This app enables you to draw with others online in real-time. On the Node.js backend we use socket.io in order to sync and save the drawing events.",
+            "Draw with others online in real-time. On the Node.js backend we use socket.io in order to sync and save the drawing events.",
         url: "https://lets-draw-online.herokuapp.com/",
         repo: "https://github.com/ScriptRaccoon/lets-draw",
         keywords: [
@@ -273,7 +273,7 @@ export const projects = [
     {
         name: "Mahjong Solitaire",
         description:
-            "This is a Mahjong solitaire game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tiles are left.",
+            "The classical Mahjong Solitaire as a browser game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tiles are left.",
         repo: "https://github.com/ScriptRaccoon/mahjong-solitaire",
         url: "https://mahjong-solitaire.netlify.app/",
         tutorial: "https://youtu.be/oWDB4LaO4MU",
@@ -284,7 +284,7 @@ export const projects = [
     {
         name: "Google Drive Upload form",
         description:
-            "This is a Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
+            "A Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
         tutorial: "https://youtu.be/78mrc9M_ONE",
         repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
         tutorial: "https://youtu.be/78mrc9M_ONE",
