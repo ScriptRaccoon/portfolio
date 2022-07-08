@@ -117,7 +117,7 @@
     </div>
 
     <h3>Familiar with</h3>
-    <div class="logos familiar">
+    <div class="logos">
         {#each familiarLogos as { image, name, url }}
             <a href={url} target="_blank">
                 <img
@@ -158,8 +158,5 @@
     }
     img:hover {
         transform: scale(1.1);
-    }
-    .logos.familiar img {
-        width: 20px;
     }
 </style>
