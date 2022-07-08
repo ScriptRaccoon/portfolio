@@ -193,6 +193,20 @@ export const projects = [
         image: "bookshelf.jpg",
     },
     {
+        name: "Slide Puzzles",
+        description:
+            "The classical 4 &times; 4 slide puzzle as a browser game, which can be resized up to 10 &times; 10. Featuring nice graphics and smooth animations.",
+        repo: "https://github.com/ScriptRaccoon/slidepuzzles",
+        url: "https://slidepuzzles.netlify.app/",
+        keywords: [
+            "Browser game",
+            "CSS",
+            "Vanilla JavaScript",
+            "Graphics",
+        ],
+        image: "slide.jpg",
+    },
+    {
         name: "Calendar App",
         description:
             "Calendar app built with Vanilla JavaScript. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
