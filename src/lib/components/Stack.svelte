@@ -85,7 +85,6 @@
             url: "https://www.python.org/",
         },
     ];
-    console.log("test from stack.svelte");
 </script>
 
 <section>

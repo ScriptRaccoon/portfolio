@@ -4,7 +4,6 @@
     import Portfolio from "../lib/components/Portfolio.svelte";
     import Welcome from "../lib/components/Welcome.svelte";
     import Stack from "../lib/components/Stack.svelte";
-    console.log("test from index.svelte");
 </script>
 
 <svelte:head>
