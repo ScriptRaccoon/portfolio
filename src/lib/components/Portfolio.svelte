@@ -19,6 +19,8 @@
             itemSelector: ".item",
         });
     });
+
+    console.log("test from portfolio.svelte");
 </script>
 
 <section id="portfolio">
