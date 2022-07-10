@@ -61,7 +61,7 @@ export const projects = [
         rating: 1,
     },
     {
-        name: "Graph Editor",
+        name: "Graph editor",
         description:
             "Interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
         url: "https://graph-editor.netlify.app/",
@@ -72,7 +72,7 @@ export const projects = [
         rating: 2,
     },
     {
-        name: "CSS Sphere",
+        name: "CSS sphere",
         description:
             "An animated sphere made with 3-dimensional CSS. You can also put the view inside of the sphere. This works by animating the perspective. Works best in Chrome.",
         url: "https://css-sphere.netlify.app",
@@ -82,7 +82,7 @@ export const projects = [
         rating: 2,
     },
     {
-        name: "Spotify Playlist Finder",
+        name: "Spotify playlist finder",
         description:
             "Finds all of your Spotify playlists which contain a specific song. Surprisingly, this specific feature is not built into the Spotify app.",
         repo: "https://github.com/ScriptRaccoon/spotify-playlist-finder",
@@ -99,7 +99,7 @@ export const projects = [
         rating: 2,
     },
     {
-        name: "Calendar App",
+        name: "Calendar app",
         description:
             "Calendar app built with Vanilla JavaScript. Firebase is used for authentication and storage of events. Responsive design makes it possible to use the calendar on your phone.",
         repo: "https://github.com/ScriptRaccoon/calendar",
@@ -200,7 +200,7 @@ export const projects = [
     },
 
     {
-        name: "Weather App",
+        name: "Weather app",
         description:
             "A simple weather app made with SvelteKit. The data comes from <a href='https://openweathermap.org/' target='_blank'>OpenWeather API</a> via a SvelteKit endpoint.",
         url: "https://weather-sveltekit.netlify.app/",
@@ -241,7 +241,7 @@ export const projects = [
         rating: 2,
     },
     {
-        name: "Slide Puzzles",
+        name: "Slide puzzles",
         description:
             "The classical 4 &times; 4 slide puzzle as a browser game, which can be resized up to 10 &times; 10. Featuring nice graphics and smooth animations.",
         repo: "https://github.com/ScriptRaccoon/slidepuzzles",
@@ -257,7 +257,7 @@ export const projects = [
     },
 
     {
-        name: "Sprite Animation",
+        name: "Sprite animation",
         description:
             "This project shows how to make sprite animations with Vanilla JavaScript on an HTML canvas. The code serves as a template for more complex browser games.",
         repo: "https://github.com/ScriptRaccoon/Sprite-Animation",
@@ -291,9 +291,9 @@ export const projects = [
         rating: 3,
     },
     {
-        name: "Mahjong Solitaire",
+        name: "Mahjong solitaire",
         description:
-            "The classical Mahjong Solitaire as a browser game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tiles are left.",
+            "The classical Mahjong solitaire as a browser game written with Vanilla JavaScript and CSS. You have to select pairs of identical open tiles to remove them from the board until no tiles are left.",
         repo: "https://github.com/ScriptRaccoon/mahjong-solitaire",
         url: "https://mahjong-solitaire.netlify.app/",
         tutorial: "https://youtu.be/oWDB4LaO4MU",
@@ -318,7 +318,7 @@ export const projects = [
         rating: 3,
     },
     {
-        name: "Google Drive Upload form",
+        name: "Google Drive upload form",
         description:
             "A Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
         tutorial: "https://youtu.be/78mrc9M_ONE",
