@@ -4,6 +4,8 @@
         darkMode = !darkMode;
         document.body.classList.toggle("light");
     }
+    import Fa from "svelte-fa";
+    import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <header id="header">
@@ -15,9 +17,9 @@
         on:click={toggleDarkMode}
     >
         {#if darkMode}
-            <i aria-hidden="true" class="fa-solid fa-sun" />
+            <Fa icon={faSun} />
         {:else}
-            <i aria-hidden="true" class="fa-solid fa-moon" />
+            <Fa icon={faMoon} />
         {/if}
     </button>
     <h1>Script Raccoon</h1>

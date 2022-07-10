@@ -1,3 +1,12 @@
+<script>
+    import Fa from "svelte-fa";
+    import {
+        faGithub,
+        faTwitter,
+    } from "@fortawesome/free-brands-svg-icons";
+    import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+</script>
+
 <footer>
     <p>
         Made with <a href="https://kit.svelte.dev" target="_blank"
@@ -13,7 +22,7 @@
                 aria-label="GitHub account"
                 title="GitHub account"
             >
-                <i aria-hidden="true" class="fa-brands fa-github" />
+                <Fa icon={faGithub} />
             </a>
         </li>
         <li>
@@ -23,7 +32,7 @@
                 aria-label="Twitter account"
                 title="Twitter account"
             >
-                <i aria-hidden="true" class="fa-brands fa-twitter" />
+                <Fa icon={faTwitter} />
             </a>
         </li>
         <li>
@@ -33,7 +42,7 @@
                 aria-label="Email me"
                 title="Email me"
             >
-                <i aria-hidden="true" class="fa-solid fa-envelope" />
+                <Fa icon={faEnvelope} />
             </a>
         </li>
     </ul>

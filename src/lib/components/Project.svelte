@@ -1,5 +1,11 @@
 <script>
     export let project;
+    import Fa from "svelte-fa";
+    import {
+        faYoutube,
+        faGithub,
+    } from "@fortawesome/free-brands-svg-icons";
+    import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <div class="item">
@@ -18,10 +24,7 @@
         <p class="links">
             {#if project.url}
                 <a href={project.url} target="_blank" title="Demo">
-                    <i
-                        aria-label="Desktop icon"
-                        class="fa-solid fa-display"
-                    />
+                    <Fa icon={faDisplay} />
                 </a>
             {/if}
             {#if project.repo}
@@ -30,10 +33,7 @@
                     target="_blank"
                     title="GitHub Repository"
                 >
-                    <i
-                        aria-label="GitHub Icon"
-                        class="fa-brands fa-github"
-                    />
+                    <Fa icon={faGithub} />
                 </a>
             {/if}
             {#if project.tutorial}
@@ -42,10 +42,7 @@
                     target="_blank"
                     title="Tutorial"
                 >
-                    <i
-                        aria-label="YouTube Icon"
-                        class="fa-brands fa-youtube"
-                    />
+                    <Fa icon={faYoutube} />
                 </a>
             {/if}
         </p>

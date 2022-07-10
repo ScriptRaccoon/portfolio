@@ -18,6 +18,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"imagesloaded": "^5.0.0"
+		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@fortawesome/free-solid-svg-icons": "^6.1.1",
+		"imagesloaded": "^5.0.0",
+		"svelte-fa": "^3.0.2"
 	}
 }

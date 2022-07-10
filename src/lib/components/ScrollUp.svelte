@@ -1,6 +1,8 @@
 <script>
     import { onMount } from "svelte";
     import { fade } from "svelte/transition";
+    import Fa from "svelte-fa";
+    import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
     let show = false;
     let timer = null;
@@ -27,7 +29,7 @@
 {#if show}
     <aside transition:fade={{ duration: 150 }}>
         <a href="#header" aria-label="scroll up">
-            <i aria-hidden="true" class="fa-solid fa-angle-up" />
+            <Fa icon={faAngleUp} />
         </a>
     </aside>
 {/if}
