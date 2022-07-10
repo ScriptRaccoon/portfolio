@@ -133,6 +133,7 @@
 <style lang="scss">
     section {
         background-color: var(--card-color);
+        transition: background-color 200ms linear;
         padding-inline: 15px;
         h3 {
             text-align: center;

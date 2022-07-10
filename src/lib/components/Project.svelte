@@ -62,6 +62,7 @@
     .item {
         background-color: var(--card-color);
         box-shadow: 0px 0px 20px var(--card-border);
+        transition: background-color 200ms linear;
         border-radius: 14px;
         article {
             padding: 20px;
