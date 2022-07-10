@@ -7,10 +7,6 @@
     import ScrollUp from "../lib/components/ScrollUp.svelte";
 </script>
 
-<svelte:head>
-    <title>Script Raccoon</title>
-</svelte:head>
-
 <Header />
 <Welcome />
 <Stack />
