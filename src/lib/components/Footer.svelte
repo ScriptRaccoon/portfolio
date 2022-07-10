@@ -1,10 +1,5 @@
 <footer>
     <p>
-        <a href="#header" aria-label="go up">
-            <i aria-hidden="true" class="fa-solid fa-angle-up" />
-        </a>
-    </p>
-    <p>
         Made with <a href="https://kit.svelte.dev" target="_blank"
             >SvelteKit</a
         >
@@ -47,7 +42,7 @@
 <style lang="scss">
     footer {
         background-color: var(--primary-color);
-        padding: 5px 20px 20px 20px;
+        padding: 20px;
         margin-top: auto;
         text-align: center;
         color: var(--footer-color);
@@ -58,9 +53,6 @@
             justify-content: center;
             gap: 20px;
             font-size: 24px;
-        }
-        p:first-child {
-            padding-bottom: 10px;
         }
     }
 </style>

@@ -4,6 +4,7 @@
     import Portfolio from "../lib/components/Portfolio.svelte";
     import Welcome from "../lib/components/Welcome.svelte";
     import Stack from "../lib/components/Stack.svelte";
+    import ScrollUp from "../lib/components/ScrollUp.svelte";
 </script>
 
 <svelte:head>
@@ -22,3 +23,4 @@
 <Stack />
 <Portfolio />
 <Footer />
+<ScrollUp />
