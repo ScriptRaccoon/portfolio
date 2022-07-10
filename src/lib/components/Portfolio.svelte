@@ -1,7 +1,7 @@
 <script>
     import { projects } from "../projects";
     import Project from "./Project.svelte";
-    import { enableMasonry } from "../masonry.js";
+    import { applyMasonry } from "../masonry.js";
     import { onMount } from "svelte";
 
     const projectsByRating = (r) =>
@@ -14,9 +14,10 @@
     ];
 
     onMount(() => {
-        enableMasonry({
+        applyMasonry({
             gridSelector: ".grid",
             itemSelector: ".item",
+            contentSelector: ".content",
         });
     });
 </script>

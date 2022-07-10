@@ -3,15 +3,17 @@
 
 import imagesLoaded from "imagesloaded";
 
-export function enableMasonry(options) {
+export function applyMasonry(options) {
     const {
         gridSelector,
         itemSelector,
-        contentSelector = ".content",
+        contentSelector,
         rowHeight = 20,
     } = options;
-    if (!gridSelector) throw new Error("now grid selector provided");
-    if (!itemSelector) throw new Error("now item selector provided");
+    if (!gridSelector) throw new Error("no grid selector provided");
+    if (!itemSelector) throw new Error("no item selector provided");
+    if (!contentSelector)
+        throw new Error("no content selector provided");
     const allItems = document.querySelectorAll(itemSelector);
     const grid = document.querySelector(gridSelector);
     grid.style.gridAutoRows = rowHeight + "px";
