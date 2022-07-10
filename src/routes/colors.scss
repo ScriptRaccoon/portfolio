@@ -1,0 +1,22 @@
+body {
+    --bg-color: #091017;
+    --card-color: #142230;
+    --primary-color: orangered;
+    --secondary-color: rgb(240, 240, 0);
+    --tertiary-color: skyblue;
+    --font-color: #eee;
+    --icon-border: transparent;
+    --card-border: #0005;
+    --footer-color: #eee;
+}
+
+body.light {
+    --bg-color: white;
+    --card-color: #e8e8e8;
+    --primary-color: orangered;
+    --secondary-color: #003a4c;
+    --tertiary-color: hsl(182, 59%, 33%);
+    --font-color: #202020;
+    --icon-border: #ccc;
+    --card-border: transparent;
+}
