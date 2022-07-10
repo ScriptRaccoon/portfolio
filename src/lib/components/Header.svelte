@@ -1,27 +1,9 @@
 <script>
-    let darkMode = true;
-    function toggleDarkMode() {
-        darkMode = !darkMode;
-        document.body.classList.toggle("light");
-    }
-    import Fa from "svelte-fa";
-    import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+    import DarkModeToggler from "./DarkModeToggler.svelte";
 </script>
 
 <header id="header">
-    <button
-        aria-label="toggle dark mode"
-        title={darkMode
-            ? "switch to light mode"
-            : "switch to dark mode"}
-        on:click={toggleDarkMode}
-    >
-        {#if darkMode}
-            <Fa icon={faSun} />
-        {:else}
-            <Fa icon={faMoon} />
-        {/if}
-    </button>
+    <DarkModeToggler />
     <h1>Script Raccoon</h1>
     <img
         src="/assets/ScriptRaccoon.svg"
@@ -35,11 +17,7 @@
         padding-top: 30px;
         text-align: center;
         height: 110px;
-        button {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-        }
+        position: relative;
         h1 {
             visibility: hidden;
             position: absolute;
