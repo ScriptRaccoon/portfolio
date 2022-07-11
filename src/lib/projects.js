@@ -7,7 +7,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/RubiksCubeSvelte",
         keywords: ["Svelte", "CSS", "Browser game", "3D", "Graphics"],
         tutorial: "https://www.youtube.com/watch?v=GdlUdnYZnfc",
-        image: "cube.jpg",
+        image: "cube",
         rating: 1,
     },
     {
@@ -23,7 +23,7 @@ export const projects = [
             "Full stack",
         ],
         tutorial: "https://youtu.be/CMIwJLS0dns",
-        image: "svordle.jpg",
+        image: "svordle",
         rating: 1,
     },
     {
@@ -40,7 +40,7 @@ export const projects = [
             "Tool",
         ],
         tutorial: "https://youtu.be/5xzqEqQR7L4",
-        image: "actors.jpg",
+        image: "actors",
         rating: 1,
     },
     {
@@ -57,7 +57,7 @@ export const projects = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8vGfIvK5-9P5RAavTxzoQWP",
-        image: "pool.jpg",
+        image: "pool",
         rating: 1,
     },
     {
@@ -68,7 +68,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/graph-editor",
         keywords: ["Svelte", "Tool"],
         tutorial: "https://youtu.be/NRyYCifF1PQ",
-        image: "graph.jpg",
+        image: "graph",
         rating: 2,
     },
     {
@@ -78,7 +78,7 @@ export const projects = [
         url: "https://css-sphere.netlify.app",
         repo: "https://github.com/ScriptRaccoon/css-sphere",
         keywords: ["Graphics", "3D", "CSS"],
-        image: "sphere.jpg",
+        image: "sphere",
         rating: 2,
     },
     {
@@ -95,7 +95,7 @@ export const projects = [
             "Vanilla JavaScript",
             "OAuth",
         ],
-        image: "spotify.jpg",
+        image: "spotify",
         rating: 2,
     },
     {
@@ -113,7 +113,7 @@ export const projects = [
             "Vanilla JavaScript",
             "CSS",
         ],
-        image: "calendar.jpg",
+        image: "calendar",
         rating: 1,
     },
     {
@@ -132,7 +132,7 @@ export const projects = [
             "Alpine",
             "Benchmark",
         ],
-        image: "shoppinglist.jpg",
+        image: "shoppinglist",
         rating: 2,
     },
 
@@ -143,7 +143,7 @@ export const projects = [
         url: "https://svoodle.netlify.app",
         repo: "https://github.com/ScriptRaccoon/svoodle",
         keywords: ["Full stack", "SvelteKit", "Firebase", "Tool"],
-        image: "svoodle.jpg",
+        image: "svoodle",
         rating: 2,
     },
     {
@@ -160,7 +160,7 @@ export const projects = [
             "Sass",
             "CSS",
         ],
-        image: "chess.jpg",
+        image: "chess",
         rating: 1,
     },
     {
@@ -179,7 +179,7 @@ export const projects = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8s2_B2xJaEwMrR5fR73_9U9",
-        image: "whispernote.jpg",
+        image: "whispernote",
         rating: 2,
     },
     {
@@ -195,7 +195,7 @@ export const projects = [
             "Graphics",
             "Simulation",
         ],
-        image: "dancing.jpg",
+        image: "dancing",
         rating: 2,
     },
 
@@ -207,7 +207,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/sveltekit-weather",
         keywords: ["Full stack", "SvelteKit", "API"],
         tutorial: "https://youtu.be/akJEOD3El8I",
-        image: "weather.jpg",
+        image: "weather",
         rating: 3,
     },
 
@@ -226,7 +226,7 @@ export const projects = [
         ],
         tutorial:
             "https://www.youtube.com/playlist?list=PL1LHMFscti8sBtJOzgVKFHpxuMa-moSPX",
-        image: "space.jpg",
+        image: "space",
         rating: 1,
     },
     {
@@ -237,7 +237,7 @@ export const projects = [
         repo: "https://github.com/ScriptRaccoon/BookShelf",
         tutorial: "https://www.youtube.com/watch?v=gWYgy_JVLlQ",
         keywords: ["3D", "Svelte", "CSS", "Tool"],
-        image: "bookshelf.jpg",
+        image: "bookshelf",
         rating: 2,
     },
     {
@@ -252,7 +252,7 @@ export const projects = [
             "Vanilla JavaScript",
             "Graphics",
         ],
-        image: "slide.jpg",
+        image: "slide",
         rating: 3,
     },
 
@@ -270,7 +270,7 @@ export const projects = [
             "Vanilla JavaScript",
             "Object-oriented",
         ],
-        image: "sprite.jpg",
+        image: "sprite",
         rating: 2,
     },
 
@@ -287,7 +287,7 @@ export const projects = [
             "Vanilla JavaScript",
         ],
         tutorial: "https://youtu.be/s-RCuZflUe4",
-        image: "letsdraw.jpg",
+        image: "letsdraw",
         rating: 3,
     },
     {
@@ -298,7 +298,7 @@ export const projects = [
         url: "https://mahjong-solitaire.netlify.app/",
         tutorial: "https://youtu.be/oWDB4LaO4MU",
         keywords: ["Browser game", "Vanilla JavaScript", "CSS"],
-        image: "mahjong.jpg",
+        image: "mahjong",
         rating: 2,
     },
     {
@@ -314,7 +314,7 @@ export const projects = [
             "Graphics",
             "Simulation",
         ],
-        image: "cell.jpg",
+        image: "cell",
         rating: 3,
     },
     {
@@ -330,7 +330,7 @@ export const projects = [
             "Google Apps Script",
             "Tool",
         ],
-        image: "upload.jpg",
+        image: "upload",
         rating: 3,
     },
 ];

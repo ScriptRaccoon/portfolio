@@ -12,12 +12,20 @@
     <article class="content">
         <h3>{project.name}</h3>
 
-        {#if project.image}
+        <picture>
+            <source
+                srcset="assets/projects/{project.image}.webp"
+                type="image/webp"
+            />
+            <source
+                srcset="assets/projects/{project.image}.jpg"
+                type="image/jpeg"
+            />
             <img
-                src="assets/projects/{project.image}"
+                src="assets/projects/{project.image}.jpg"
                 alt="project preview"
             />
-        {/if}
+        </picture>
 
         <p class="description">{@html project.description}</p>
 
