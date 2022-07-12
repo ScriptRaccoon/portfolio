@@ -8,6 +8,15 @@ const config = {
         prerender: {
             default: true,
         },
+        vite: {
+            ssr: {
+                noExternal: [
+                    "@fortawesome/free-brands-svg-icons",
+                    "@fortawesome/free-regular-svg-icons",
+                    "@fortawesome/free-solid-svg-icons",
+                ],
+            },
+        },
     },
     preprocess: preprocess(),
 };
