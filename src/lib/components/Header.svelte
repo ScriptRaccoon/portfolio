@@ -83,22 +83,23 @@
             border-radius: 50%;
             animation: fade 900ms ease-out forwards;
             transform: scale(0);
+            opacity: 0;
             border: 1px solid var(--icon-border);
             #eyes {
                 animation: blink 10s ease-in infinite;
                 transform-origin: bottom;
                 transform-box: fill-box;
-                transform: scaleY(0);
             }
         }
     }
 
     @keyframes blink {
         0%,
-        98% {
+        16%,
+        18% {
             transform: scaleY(1);
         }
-        99% {
+        17% {
             transform: scaleY(0);
         }
     }
