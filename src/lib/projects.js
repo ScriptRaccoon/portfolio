@@ -67,7 +67,7 @@ export const projects = [
         url: "https://graph-editor.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/graph-editor",
         keywords: ["Svelte", "Tool"],
-        tutorial: "https://youtu.be/NRyYCifF1PQ",
+        // tutorial: "https://youtu.be/NRyYCifF1PQ",
         image: "graph",
         rating: 2,
     },
@@ -206,7 +206,7 @@ export const projects = [
         url: "https://weather-sveltekit.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/sveltekit-weather",
         keywords: ["Full stack", "SvelteKit", "API"],
-        tutorial: "https://youtu.be/akJEOD3El8I",
+        // tutorial: "https://youtu.be/akJEOD3El8I",
         image: "weather",
         rating: 3,
     },
@@ -321,7 +321,6 @@ export const projects = [
         name: "Google Drive upload form",
         description:
             "A Google web app which allows others to upload files to your Google Drive. As opposed to mail, the files go directly to where they belong, and  no Google login is required.",
-        tutorial: "https://youtu.be/78mrc9M_ONE",
         repo: "https://github.com/ScriptRaccoon/google-drive-upload-form",
         tutorial: "https://youtu.be/78mrc9M_ONE",
         keywords: [
