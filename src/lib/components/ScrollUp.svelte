@@ -48,8 +48,5 @@
         a {
             color: white;
         }
-        @media (min-width: 720px) {
-            display: none !important;
-        }
     }
 </style>
