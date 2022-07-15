@@ -43,7 +43,7 @@
             d="M28.1,31.7c2.3,0,4.1,1.4,4.1,3c0,1.6-1.9,2.9-4.2,2.8c-2.3,0-4.1-1.4-4.1-3
 	C23.9,32.9,25.8,31.7,28.1,31.7z"
         />
-        <g class="bg">
+        <g id="eyes" class="bg">
             <path
                 id="eye-left"
                 d="M20.4,24.1l-1,2.8h-1.4l1.8-4.2H21l1.8,4.2h-1.4L20.4,24.1z"
@@ -84,6 +84,22 @@
             animation: fade 900ms ease-out forwards;
             transform: scale(0);
             border: 1px solid var(--icon-border);
+            #eyes {
+                animation: blink 10s ease-in infinite;
+                transform-origin: bottom;
+                transform-box: fill-box;
+                transform: scaleY(0);
+            }
+        }
+    }
+
+    @keyframes blink {
+        0%,
+        98% {
+            transform: scaleY(1);
+        }
+        99% {
+            transform: scaleY(0);
         }
     }
 
