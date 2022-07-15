@@ -66,7 +66,7 @@ export const projects = [
             "Interactive graph editor made with Svelte. The nodes and edges can be edited directly by clicking on them.",
         url: "https://graph-editor.netlify.app/",
         repo: "https://github.com/ScriptRaccoon/graph-editor",
-        keywords: ["Svelte", "Tool"],
+        keywords: ["Svelte", "Tool", "CSS"],
         // tutorial: "https://youtu.be/NRyYCifF1PQ",
         image: "graph",
         rating: 2,
